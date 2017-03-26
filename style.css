@@ -440,8 +440,16 @@ a {
 
   h2 {
     text-align: left;
-  	font-size: 18px;
+  	font-size: 22px;
   	line-height: 24px;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   p {
@@ -493,19 +501,25 @@ a {
   right: 80%;
 }
 
+.slack_info {
+  margin-left: 10px;
+}
+
 .slack_info p, h2 {
   width: 80vw;
+  max-width: 250px;
   margin-right: 0;
 }
 
 .card {
   display: flex;
-  margin-top: 150px;
+  margin-top:  80px;
   flex-direction: column;
 }
 
 .card_info {
   order: 2;
+  align-items: center;
   width: 80vw;
   margin: 0;
   margin-top: 20px;
@@ -530,6 +544,7 @@ a {
 }
 
 .card_info_r {
+  align-items: center;
   order: 2;
   width: 80vw;
   margin: 0;
@@ -544,22 +559,48 @@ a {
   text-align: center;
 }
 
+.feature_set {
+  margin-top: -200px;
+}
+
 .feature {
-  margin-top: 100px;
+  margin: 0px;
   width: 60vw;
 }
 
+.feature_img {
+  margin-bottom: 0;
+}
 .feature object {
   width: 80px;
 }
 
 .feature h2 {
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .feature p {
   text-align: center;
+}
+
+.footer_info {
+  margin-right: 0;
+  max-width: 300px;
+}
+
+.footer_info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.footer_info p {
+  margin-top: 0;
+}
+
+.legal {
+  justify-content: flex-start;
+  padding-left: 50px;
 }
 
 .squiggle-one {
