@@ -291,7 +291,7 @@ a {
   position: relative;
 	max-width: 800px;
   left: 10%;
-  bottom: 50px;
+  /*bottom: 50px;*/
 }
 
 
@@ -481,6 +481,10 @@ a {
 
 .title_block svg {
     width: 150px;
+}
+
+.main_illustration {
+  bottom: 50px;
 }
 
 .main_illustration svg {
