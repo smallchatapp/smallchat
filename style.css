@@ -114,7 +114,7 @@ a {
 .section_reverse {
   display: flex;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: -100px;
   align-items: center;
   max-width: 1200px;
   z-index: 3;
@@ -149,7 +149,7 @@ a {
   display: flex;
   margin: 0 auto;
   max-width: 900px;
-  margin-top: 100px;
+  margin-top: 150px;
   align-items: center;
 }
 
@@ -175,7 +175,7 @@ a {
   display: flex;
   margin: 0 auto;
   max-width: 1000px;
-  margin-top: 100px;
+  margin-top: 150px;
   align-items: center;
   z-index: 3;
 }
@@ -291,7 +291,7 @@ a {
   position: relative;
 	max-width: 800px;
   left: 10%;
-  bottom: 50px;
+  /*bottom: 50px;*/
 }
 
 
@@ -354,27 +354,26 @@ a {
 }
 
 .triangle-one {
-  right: 55%;
+  right: 52%;
 }
 
 .squiggle-one {
   left: 45%;
-  top: 200px;
+  top: 300px;
 }
 
 .circle-one {
-  left: 5%;
+  left: 3%;
   bottom: 100px;
 }
 
 .squiggle-two {
-  right: 40%;
-  top: 250px;
+  right: 48%;
 }
 
 .circle-two {
   right: 43%;
-  top: 240px;
+  top: 350px;
 }
 
 .squiggle-three {
@@ -393,7 +392,7 @@ a {
 }
 
 .shape-one {
-  right: 56%;
+  right: 49%;
   top: 500px
 }
 
@@ -424,6 +423,11 @@ a {
   top: 2000px;
 }
 
+.squiggle-five {
+  left: 5%;
+  bottom: 280px;
+}
+
 @media screen and (max-width: 700px) {
 
   .above {
@@ -436,8 +440,16 @@ a {
 
   h2 {
     text-align: left;
-  	font-size: 18px;
+  	font-size: 22px;
   	line-height: 24px;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   p {
@@ -449,16 +461,19 @@ a {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 50px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .section_reverse {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 50px;
-  margin-top: -150px;
+  margin-top: -300px;
 }
 
+.header_info {
+  margin-left: 0;
+}
 .header_info p, h2 {
   width: 80vw;
   margin-right: 0;
@@ -468,10 +483,14 @@ a {
     width: 150px;
 }
 
+.main_illustration {
+  bottom: 50px;
+}
+
 .main_illustration svg {
   position: relative;
   left: 10%;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .slack_window {
@@ -480,25 +499,31 @@ a {
   left: -100px;
 }
 
-.slack_window object {
+.slack object {
   position: relative;
-  max-width: 500px;
-  right: 30%;
+  max-width: 800px;
+  right: 80%;
+}
+
+.slack_info {
+  margin-left: 10px;
 }
 
 .slack_info p, h2 {
   width: 80vw;
+  max-width: 250px;
   margin-right: 0;
 }
 
 .card {
   display: flex;
-  margin-top: 150px;
+  margin-top:  80px;
   flex-direction: column;
 }
 
 .card_info {
   order: 2;
+  align-items: center;
   width: 80vw;
   margin: 0;
   margin-top: 20px;
@@ -523,6 +548,7 @@ a {
 }
 
 .card_info_r {
+  align-items: center;
   order: 2;
   width: 80vw;
   margin: 0;
@@ -537,22 +563,48 @@ a {
   text-align: center;
 }
 
+.feature_set {
+  margin-top: -200px;
+}
+
 .feature {
-  margin-top: 100px;
+  margin: 0px;
   width: 60vw;
 }
 
+.feature_img {
+  margin-bottom: 0;
+}
 .feature object {
   width: 80px;
 }
 
 .feature h2 {
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .feature p {
   text-align: center;
+}
+
+.footer_info {
+  margin-right: 0;
+  max-width: 300px;
+}
+
+.footer_info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.footer_info p {
+  margin-top: 0;
+}
+
+.legal {
+  justify-content: flex-start;
+  padding-left: 50px;
 }
 
 .squiggle-one {
@@ -586,6 +638,7 @@ a {
 }
 .mc-row-one {
   display: flex;
+  justify-content: space-between;
 }
 .mc-name {
   margin-right: 40px;
