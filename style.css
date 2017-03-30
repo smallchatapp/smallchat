@@ -246,9 +246,62 @@ a {
   display: flex;
 }
 
-.tier_illustration object {
-  height: 250px;
+.price_tier {
+  width: 400px;
+  margin: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f4f6f6;
+  border-radius: 6px;
+  box-shadow: 0 0 0px rgba(0,0,0,.2);
+  transition: 300 ease;
 }
+
+/*.price_tier:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+}*/
+
+/*.free:not(:hover) {
+  border: 1px solid #f4f6f6;
+  border-radius: 6px;
+  box-shadow: 0 0 0px rgba(0,0,0,.2);
+  transition: 300 ease;
+}*/
+.pro {
+  width: 400px;
+  margin: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f4f6f6;
+  border-radius: 6px;
+  box-shadow: 0 0 0px rgba(0,0,0,.2);
+  transition: 300 ease;
+}
+
+.free {
+  width: 400px;
+  margin: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid white;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  transition: 300 ease;
+}
+
 
 .tier_illustration {
   height: 300px;

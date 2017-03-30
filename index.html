@@ -393,56 +393,59 @@
       </div>
 
       <div class="tiers" style="margin-top: 80px;">
-        <h2>No limits. Ever. Get started for free.</h2>
+        <h2 style="margin-bottom: 5px;">No limits. Ever. Get started for free.</h2>
         <div class="price_cards">
-          <div class="price_tier">
+          <div id="price_tier" class="price_tier free">
             <div class="tier_illustration">
-              <object type="image/svg+xml" data="svgs/free-tier.svg"></object>
+              <object type="image/svg+xml" data="svgs/free-tier.svg" style="height: 200px; margin-top:25px;"></object>
             </div>
             <div class="free_tier_info">
-              <ul style="font-size: 20px;">
-                <li>Unlimited visitors and conversations</li>
-                <li>Unlimited operators</li>
-                <li>Unlimited widgets and customization</li>
+              <ul style="font-size: 14px; line-height: 22px;">
+                <li>&#x221e; visitors and conversations</li>
+                <li>&#x221e; operators</li>
+                <li>&#x221e; widgets and customization</li>
+                <li style="color: #E6EAEB;">Auto-messages</li>
+                <li style="color: #E6EAEB;">Contact Lists</li>
+                <li style="color: #E6EAEB;">White-label chat Window</li>
               </ul>
               <a
-                    href='https://slack.com/oauth/authorize?scope=channels:write,bot,commands,chat:write:bot,users:read,team:read&client_id=73100902978.130145105494' style="display: block; margin-top: 40px;">
+                    href='https://slack.com/oauth/authorize?scope=channels:write,bot,commands,chat:write:bot,users:read,team:read&client_id=73100902978.130145105494' style="display: block; margin-top: 20px;">
                     <img
                       alt='Add to Slack'
                       height='50'
                       src='imgs/add-to-slack.png'
-                      style="border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,.2)"
+                      style="border-radius: 8px; border: 1px solid #B3B3C0;"
                     />
                   </a>
             </div>
           </div>
 
-          <div class="price_tier">
+          <div id="price_tier" class="pro">
             <div class="tier_illustration">
-              <object type="image/svg+xml" data="svgs/pro-tier.svg"></object>
+              <object type="image/svg+xml" data="svgs/pro-tier.svg" style="height: 250px;"></object>
             </div>
             <div class="pro_tier_info">
-              <ul style="font-size: 20px;">
-                <li>Unlimited visitors and conversations</li>
-                <li>Unlimited operators</li>
-                <li>Unlimited widgets and customization</li>
+              <ul style="font-size: 14px; line-height: 22px;">
+                <li>&#x221e; visitors and conversations</li>
+                <li>&#x221e; operators</li>
+                <li>&#x221e; widgets and customization</li>
                 <li>Auto-messages</li>
                 <li>Contact Lists</li>
                 <li>White-label chat Window</li>
               </ul>
               <a
-                    href='https://slack.com/oauth/authorize?scope=channels:write,bot,commands,chat:write:bot,users:read,team:read&client_id=73100902978.130145105494' style="display: block; margin-top: 40px;">
+                    href='https://slack.com/oauth/authorize?scope=channels:write,bot,commands,chat:write:bot,users:read,team:read&client_id=73100902978.130145105494' style="display: block; margin-top: 20px;">
                     <img
                       alt='Add to Slack'
                       height='50'
                       src='imgs/add-to-slack.png'
-                      style="border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,.2)"
+                      style="border-radius: 8px; border: 1px solid #B3B3C0;"
                     />
                   </a>
             </div>
           </div>
         </div>
-        <p>Our free tier adds a small "Powered by Smallchat" note under your widget.<br/> Remove it by upgrading to our pro tier for just $10/mo.</p>
+        <!-- <p>Our free tier adds a small "Powered by Smallchat" note under your widget.<br/> Remove it by upgrading to our pro tier for just $10/mo.</p> -->
       </div>
 
       <!-- <div class="below rellax squiggle-four" data-rellax-speed="3.5">
@@ -517,7 +520,43 @@
         // center: true
       });
     </script>
+    <script>
+    var pro = document.querySelector('.pro');
+    var free = document.querySelector('.free');
 
+        pro.onmouseenter = function () {
+          if (this.className == 'pro')
+            this.className = 'free';
+          else {
+            this.className = 'free'
+          }
+        };
+
+        pro.onmouseleave = function () {
+          if (this.className == 'free')
+            this.className = 'pro';
+          else {
+            this.className = 'pro'
+          }
+        };
+
+        free.onmouseenter = function () {
+          if (this.className == 'pro')
+            this.className = 'free';
+          else {
+            this.className = 'free'
+          }
+        };
+
+        free.onmouseleave = function () {
+          if (this.className == 'free')
+            this.className = 'pro';
+          else {
+            this.className = 'pro'
+          }
+        };
+
+    </script>
     <script>
       var circle = document.getElementById('TealCircle');
       var chatWindow = document.getElementById('ChatWindow');
