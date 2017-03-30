@@ -208,17 +208,17 @@ a {
 .feature {
   display: flex;
   flex-direction: column;
-  max-width: 350px;
-  height: 350px;
+  max-width: 250px;
+  height: 300px;
   align-items: center;
   justify-content: center;
-  margin: 100px 50px 0 50px;
+  margin: 20px 50px 0 50px;
 }
 
 .feature_img {
   display: flex;
-  margin-bottom: 50px;
-  height: 150px;
+  margin-bottom: 10px;
+  height: 75px;
 }
 
 .feature_info {
@@ -231,8 +231,9 @@ a {
 
 .feature h2 {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: center;
+  font-size: 30px;
 }
 
 .feature p {
@@ -623,6 +624,14 @@ a {
   top: 900px;
 }
 
+}
+
+
+.tiers ul {
+  margin: 0; padding: 0;
+}
+.tiers li {
+  display: block;
 }
 /* MAILCHIMP FORM */
 #mc_embed_signup {
