@@ -240,7 +240,19 @@ a {
   margin: 0px;
   text-align: center;
 }
+/*  PRICING  */
 
+.price_cards {
+  display: flex;
+}
+
+.tier_illustration object {
+  height: 250px;
+}
+
+.tier_illustration {
+  height: 300px;
+}
 /*FOOTER*/
 
 .section_footer {
