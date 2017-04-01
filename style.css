@@ -198,6 +198,7 @@ a {
 
 /*FEATURES*/
 .feature_set {
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -208,17 +209,18 @@ a {
 .feature {
   display: flex;
   flex-direction: column;
-  max-width: 250px;
+  max-width: 300px;
   height: 300px;
   align-items: center;
   justify-content: center;
-  margin: 20px 50px 0 50px;
+  margin: 20px 60px 0 60px;
 }
 
 .feature_img {
   display: flex;
   margin-bottom: 10px;
-  height: 75px;
+  height: 80px;
+  margin-bottom: 40px;
 }
 
 .feature_info {
