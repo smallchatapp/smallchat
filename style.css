@@ -243,71 +243,49 @@ a {
   text-align: center;
 }
 /*  PRICING  */
+.tiers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tiers p {
+  text-align: center;
+  margin: 0px;
+}
 
 .price_cards {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .price_tier {
   width: 400px;
-  margin: 50px;
   padding-bottom: 50px;
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid #f4f6f6;
+  /*border: 1px solid #f4f6f6;
   border-radius: 6px;
-  box-shadow: 0 0 0px rgba(0,0,0,.2);
+  box-shadow: 0 0 0px rgba(0,0,0,.2);*/
   transition: 300 ease;
 }
-
-/*.price_tier:hover {
-  border: 1px solid white;
-  box-shadow: 0 0 30px rgba(0,0,0,.2);
-}*/
-
-/*.free:not(:hover) {
-  border: 1px solid #f4f6f6;
-  border-radius: 6px;
-  box-shadow: 0 0 0px rgba(0,0,0,.2);
-  transition: 300 ease;
-}*/
-.pro {
-  width: 400px;
-  margin: 50px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #f4f6f6;
-  border-radius: 6px;
-  box-shadow: 0 0 0px rgba(0,0,0,.2);
-  transition: 300 ease;
-}
-
-.free {
-  width: 400px;
-  margin: 50px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 6px;
-  border: 1px solid white;
-  box-shadow: 0 0 30px rgba(0,0,0,.2);
-  transition: 300 ease;
-}
-
 
 .tier_illustration {
-  height: 300px;
+  height: 400px;
 }
+
+.tier_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*FOOTER*/
 
 .section_footer {
@@ -364,53 +342,46 @@ a {
 
 
 /*ADD TO SLACK BUTTON*/
-.addSlack {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding: 10px 5px 10px 5px;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	align-items: center;
-	width: 300px;
-	border: 1px solid #B3B3C0;
-	border-radius: 6px;
-	box-shadow: 8px 8px rgba(76,255,250,0);
-	transition: 200ms ease;
+.slack_button {
+  height: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
+  transition: 150ms ease;
 }
 
-.addSlack object {
-	width: 40px;
-}
-
-.addSlack h1 {
-	position: relative;
-	margin: 0;
-}
-
-.addSlack h1:after {
-	content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  border-bottom: 4px solid rgba(76,255,250,1);
-  transition: 400ms ease;
-}
-
-.addSlack h1:hover:after {
-	width: 100%;
-}
-
-.addSlack:hover {
-	border: 1px solid #2C2C46;
-	box-shadow: 8px 8px rgba(76,255,250,1);
-	padding: 10px 20px 10px 10px;
+.slack_button:hover {
+  height: 49px;
+  box-shadow: 0 0 30px rgba(0,0,0,.25);
 }
 
 /*END ADD TO SLACK BUTTON*/
 
-/*PARALLAX*/
+/*  INLINE LINK  */
+.inline_link {
+  cursor: pointer;
+  padding: 0px;
+  padding-bottom: 2px;
+  background: white;
+  border: none;
+  font-size: 16px;
+  color: #2c2c46;
+  font-weight: 500;
+  border-bottom: 2px solid #2C2C46;
+  box-shadow: 0px 0px 0px #4CFFFA;
+  transition: 300ms ease;
+}
+
+.inline_link:hover {
+  box-shadow: 0px 2px 0px #4CFFFA;
+}
+
+.inline_link:focus {
+  box-decoration-break: none;
+  box-shadow: none;
+  border: none
+}
+
+/*  PARALLAX  */
 .above {
   position: relative;
   z-index: 10;
@@ -426,7 +397,7 @@ a {
 }
 
 .squiggle-one {
-  left: 45%;
+  left: 42%;
   top: 300px;
 }
 
@@ -697,9 +668,7 @@ a {
 .tiers ul {
   margin: 0; padding: 0;
 }
-.tiers li {
-  display: block;
-}
+
 /* MAILCHIMP FORM */
 #mc_embed_signup {
   background-color: #F4F6F6;
