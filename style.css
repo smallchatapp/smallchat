@@ -354,6 +354,11 @@ a {
   box-shadow: 0 0 30px rgba(0,0,0,.25);
 }
 
+.slack_button:focus {
+  height: 48px;
+  box-shadow: 0 0 35px rgba(0,0,0,.3);
+}
+
 /*END ADD TO SLACK BUTTON*/
 
 /*  INLINE LINK  */
