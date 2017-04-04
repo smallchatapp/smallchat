@@ -638,7 +638,7 @@ a {
 }
 
 .feature h2 {
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -649,6 +649,12 @@ a {
 
 }
 
+.tiers h2 {
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
 .price_cards {
   flex-direction: column;
   justify-content: center;
@@ -657,10 +663,34 @@ a {
 
 .free {
   width: 300px;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  padding-top: 30px;
 }
 
 .pro {
+  width: 300px;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
 
+.tier_illustration {
+  height: 250px;
+}
+
+.tier_illustration object {
+  position: relative;
+  bottom: 25px;
+  width: 250px;
+}
+
+.pro_feature {
+  display: none;
+}
+
+.footer {
+  margin-top: 40px;
 }
 
 .footer_info {
@@ -686,6 +716,16 @@ a {
   top: 0;
 }
 
+.squiggle-three {
+  bottom: 0;
+  left: 49%;
+}
+
+.squiggle-five {
+  left: -40%;
+  top: 600px;
+}
+
 .circle-five {
   display: none;
 }
@@ -695,7 +735,7 @@ a {
 }
 
 .triangle-two {
-  top: 900px;
+  top: 400px;
 }
 
 }
