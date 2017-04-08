@@ -898,9 +898,12 @@ a {
   align-items: center;
 }
 
+.free_tier_info h2, .pro_tier_info h2 {
+  width: 10vw;
+}
+
 .free {
   width: 300px;
-  margin-bottom: 0px;
   padding-bottom: 40px;
   padding-top: 30px;
 }
@@ -913,15 +916,20 @@ a {
 }
 
 .pro_tier_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 225px;
 }
 
 .free_tier_info {
-  width: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tier_illustration {
-  height: 250px;
+  height: 175px;
 }
 
 .tier_illustration object {
