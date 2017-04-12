@@ -330,23 +330,62 @@ a {
 	text-align: left;
 }
 
-.footer_info h2 {
+.footer_info h3 {
 	text-align: left;
+  margin-bottom: 0px;
 }
 
+.social_links {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
+.social_links a {
+  margin: 5px;
+  padding-right: 10px;
+  transition: all 200ms ease;
+}
+
+.social_links i {
+  transition: all 200ms ease;
+}
+
+.social_links a:hover, i:hover {
+  transform: scale(.90);
+  opacity: .8;
+}
+
+.fa {
+  font-size: 30px;
+  color: #2C2C46;
+}
+
+/*ENDING*/
+.ending {
+  margin-top: -450px;
+  margin-bottom: 150px;
+}
 
 /*LEGAL*/
+
 .legal {
   background-color: #F4F6F6;
   display: flex;
-  justify-content: center;
   width: 100vw;
-  padding-top: 100px;
 }
 
 .legal_content {
+  margin-left: 5%;
   max-width: 1200px;
+}
+
+.legal_content a {
+  transition: all 200ms ease;
+}
+
+.legal_content a:hover {
+  transform: scale(.90);
+  opacity: .8;
 }
 
 
@@ -476,19 +515,41 @@ a {
 }
 
 .squiggle-four {
-  right: 58%;
-  top: 1000px;
+  right: 42%;
+  top: 1300px;
 }
 
 .circle-seven {
-  left : 50%;
-  top: 2000px;
+  left: 50%;
+  top: 1800px;
+}
+
+.circle-eight {
+  left: 40%;
+  top: 1500px;
+}
+
+.triangle-five {
+  right: 37%;
+  top: 1900px;
 }
 
 .squiggle-five {
   left: 5%;
   bottom: 280px;
 }
+
+.circle-nine {
+  right: 48%;
+  top: 1650px;
+}
+
+.circle-ten {
+  right: 47%;
+  top: 1950px;
+}
+
+
 @media screen and (max-width: 1000px) {
 
   .above {
@@ -960,6 +1021,17 @@ a {
   margin-top: 0;
 }
 
+.social_links {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.social_links a {
+  margin: 5px;
+  padding-right: 10px;
+  height: 30px;
+}
+
 .legal {
   justify-content: flex-start;
   padding-left: 50px;
@@ -1009,6 +1081,12 @@ a {
 #mc_embed_signup h2 {
   text-align: left;
 }
+
+#mc_embed_signup h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
 .mc-field-group {
   display: flex;
   flex-direction: column;
@@ -1022,7 +1100,7 @@ a {
 }
 
 .mc-row-two {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 label {
@@ -1048,7 +1126,7 @@ input {
   color: #2C2C46;
   padding-left: 50px;
   padding-right: 50px;
-  margin-top: 40px;
+  margin-top: 20px;
   border: 1px solid #B3B3C0;
   border-radius: 6px;
   box-shadow: 8px 8px rgba(76,255,250,0);
