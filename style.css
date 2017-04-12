@@ -114,7 +114,7 @@ a {
 .section_reverse {
   display: flex;
   margin: 0 auto;
-  margin-top: -100px;
+  margin-top: 150px;
   align-items: center;
   max-width: 1200px;
   z-index: 3;
@@ -202,7 +202,7 @@ a {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: -500px;
+  margin-top: 200px;
   flex-flow: wrap;
 }
 
@@ -362,8 +362,19 @@ a {
 
 /*ENDING*/
 .ending {
-  margin-top: -450px;
-  margin-bottom: 150px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.ending_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ending_info h2 {
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 /*LEGAL*/
@@ -400,20 +411,15 @@ a {
 
 /*ADD TO SLACK BUTTON*/
 .slack_button {
-  height: 50px;
-  border-radius: 8px;
+  height: 60px;
+  border-radius: 10px;
   box-shadow: 0 0 20px rgba(0,0,0,.2);
-  transition: 150ms ease;
+  transition: all 300ms ease;
 }
 
 .slack_button:hover {
-  height: 49px;
-  box-shadow: 0 0 30px rgba(0,0,0,.25);
-}
-
-.slack_button:focus {
-  height: 48px;
-  box-shadow: 0 0 35px rgba(0,0,0,.3);
+  transform: scale(1.08);
+  box-shadow: 0 0 40px rgba(0,0,0,.15);
 }
 
 /*END ADD TO SLACK BUTTON*/
@@ -455,98 +461,116 @@ a {
 }
 
 .triangle-one {
+  height: 0;
   right: 52%;
+  top: -150px;
 }
 
 .squiggle-one {
+  height: 0;
   left: 42%;
-  top: 300px;
+  top: 80px;
 }
 
 .circle-one {
+  height: 0;
   left: 3%;
-  bottom: 100px;
+  top: -100px;
 }
 
 .squiggle-two {
+  height: 0;
   right: 48%;
 }
 
 .circle-two {
-  right: 43%;
-  top: 350px;
-}
-
-.squiggle-three {
-  left: 58%;
-  bottom: 150px;
-}
-
-.circle-three {
-  left: 35%;
+  height: 0;
+  right: 44%;
   top: 200px;
 }
 
+.squiggle-three {
+  height: 0;
+  left: 58%;
+  top: 0px;
+}
+
+.circle-three {
+  height: 0;
+  left: 35%;
+  top: 0px;
+}
+
 .circle-four {
+  height: 0;
   right: 58%;
-  top: 550px;
+  top: 0px;
 }
 
 .shape-one {
-  right: 49%;
-  top: 500px
+  height: 0;
+  right: 51%;
+  top: 0px;
 }
 
 .circle-five {
-  position: relative;
+  height: 0;
   right: 42%;
-  bottom: 620px;
+  top: -200px;
 }
 
 .circle-six {
-  position: relative;
+  height: 0;
   right: 42.5%;
-  bottom: 820px;
+  top: -280px;
 }
 
 .triangle-two {
-  left: 40%;
-  top: 300px;
+  height: 0;
+  left: 46%;
+  top: 200px;
 }
 
 .squiggle-four {
+  height: 0;
   right: 42%;
-  top: 1300px;
+  top: 1100px;
 }
 
 .circle-seven {
+  height: 0;
   left: 50%;
-  top: 1800px;
+  top: -500px;
 }
 
 .circle-eight {
+  height: 0;
   left: 40%;
-  top: 1500px;
+  top: 0px;
 }
 
 .triangle-five {
+  height: 0;
   right: 37%;
-  top: 1900px;
+  top: -600px;
 }
 
 .squiggle-five {
+  height: 0;
   left: 5%;
-  bottom: 280px;
+  top: 0px;
 }
 
 .circle-nine {
+  height: 0;
   right: 48%;
-  top: 1650px;
+  top: -250px;
 }
 
-.circle-ten {
-  right: 47%;
-  top: 1950px;
+.squiggle-six {
+  height: 0;
+  left: 39%;
+  top: 50px;
 }
 
 
@@ -565,7 +589,7 @@ a {
   .section_reverse {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: -200px;
+    margin-top: 200px;
   }
 
   .header_info {
@@ -613,7 +637,7 @@ a {
 
   .card {
     display: flex;
-    margin-top: 100px;
+    margin-top: 200px;
   }
 
   .card_info {
@@ -631,7 +655,7 @@ a {
 
   .card_reverse {
     display: flex;
-    margin-top: 100px;
+    margin-top: 200px;
   }
 
   .card_info_r {
@@ -642,7 +666,7 @@ a {
 
   .feature_set {
     justify-content: space-between;
-    margin-top: -150px;
+    margin-top: 150px;
     padding: 20px;
     max-width: 800px;
   }
@@ -759,7 +783,7 @@ a {
   }
 
   .squiggle-three {
-    bottom: 0;
+    top: 0;
     left: 49%;
   }
 
@@ -822,7 +846,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 50px;
-  margin-top: -350px;
+  margin-top: 350px;
 }
 
 .header_info {
@@ -919,7 +943,7 @@ a {
 
 .feature_set {
   justify-content: space-between;
-  margin-top: -200px;
+  margin-top: 200px;
   padding: 20px;
 }
 
