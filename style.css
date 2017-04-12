@@ -262,6 +262,12 @@ a {
    transition: 300 ease;
  }
 
+ .tier_illustration {
+   height: 200px;
+ }
+
+ 
+
  .pro {
    width: 400px;
    margin: 50px;
@@ -299,11 +305,6 @@ a {
    box-shadow: 0 0 60px rgba(0,0,0,.2);
  }
 
-
- .tier_illustration {
-   height: 200px;
- }
-
 /*FOOTER*/
 
 .section_footer {
@@ -324,6 +325,7 @@ a {
   max-width: 400px;
   margin-right: 200px;
 	flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer_info p {
@@ -337,7 +339,7 @@ a {
 
 .social_links {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 120px;
 }
 
 .social_links a {
@@ -385,11 +387,6 @@ a {
   width: 100vw;
 }
 
-.legal_content {
-  margin-left: 5%;
-  max-width: 1200px;
-}
-
 .legal_content a {
   transition: all 200ms ease;
 }
@@ -420,6 +417,11 @@ a {
 .slack_button:hover {
   transform: scale(1.08);
   box-shadow: 0 0 40px rgba(0,0,0,.15);
+}
+
+.sb_large {
+  height: 80px;
+  border-radius: 12px;
 }
 
 /*END ADD TO SLACK BUTTON*/
@@ -515,13 +517,13 @@ a {
 
 .circle-five {
   height: 0;
-  right: 42%;
+  right: 45%;
   top: -200px;
 }
 
 .circle-six {
   height: 0;
-  right: 42.5%;
+  right: 45.5%;
   top: -280px;
 }
 
@@ -627,7 +629,7 @@ a {
   }
 
   .slack_info {
-    margin-left: 50px;
+    margin-left: 100px;
   }
 
   .slack_info p, h2 {
@@ -636,8 +638,9 @@ a {
   }
 
   .card {
+    padding: 50px;
     display: flex;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .card_info {
@@ -650,12 +653,12 @@ a {
     position: relative;
     margin: 50px;
     top: 30px;
-    width: 300px;
+    width: 250px;
   }
 
   .card_reverse {
     display: flex;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .card_info_r {
@@ -666,7 +669,7 @@ a {
 
   .feature_set {
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 20px;
     max-width: 800px;
   }
@@ -709,20 +712,24 @@ a {
   }
 
   .free_tier_info h2, .pro_tier_info h2 {
-    width: 10vw;
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   .free {
     width: 350px;
     padding-bottom: 40px;
     padding-top: 30px;
+    margin: 10px;
+    margin-top: 50px;
   }
 
   .pro {
     width: 350px;
-    margin-top: 50px;
     padding-bottom: 40px;
     padding-top: 30px;
+    margin: 10px;
+    margin-top: 50px;
   }
 
   .pro_tier_info {
@@ -751,6 +758,11 @@ a {
     display: none;
   }
 
+  .sb_large {
+    height: 70px;
+    border-radius: 12px;
+  }
+
   .section_footer {
     align-items: flex-start;
   }
@@ -760,6 +772,7 @@ a {
   }
 
   .footer_info {
+    margin-right: 50px;
     margin-top: 26px;
     max-width: 300px;
   }
@@ -773,9 +786,13 @@ a {
     margin-top: 0;
   }
 
+  .social_links {
+    margin-top: 10px;
+    margin-bottom: 90px;
+  }
+
   .legal {
     justify-content: flex-start;
-    padding-left: 50px;
   }
 
   .squiggle-one {
@@ -846,7 +863,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 50px;
-  margin-top: 350px;
+  margin-top: 50px;
 }
 
 .header_info {
@@ -895,7 +912,8 @@ a {
 
 .card {
   display: flex;
-  margin-top:  100px;
+  padding: 0px;
+  margin-top: 50px;
   flex-direction: column;
 }
 
@@ -921,7 +939,8 @@ a {
 
 .card_reverse {
   display: flex;
-  margin-top: 150px;
+  padding: 0px;
+  margin-top: 50px;
   flex-direction: column;
 }
 
@@ -943,7 +962,7 @@ a {
 
 .feature_set {
   justify-content: space-between;
-  margin-top: 200px;
+  margin-top: 100px;
   padding: 20px;
 }
 
@@ -984,7 +1003,8 @@ a {
 }
 
 .free_tier_info h2, .pro_tier_info h2 {
-  width: 10vw;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .free {
@@ -1027,6 +1047,26 @@ a {
   display: none;
 }
 
+.ending {
+  margin-top: 100px;
+}
+
+.sb_large {
+  height: 60px;
+  border-radius: 12px;
+}
+
+.ending_info h2 {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.section_footer {
+  flex-direction: column-reverse;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
 .footer {
   margin-top: 40px;
 }
@@ -1058,7 +1098,6 @@ a {
 
 .legal {
   justify-content: flex-start;
-  padding-left: 50px;
 }
 
 .squiggle-one {
@@ -1083,20 +1122,38 @@ a {
   display: none;
 }
 
+.circle-seven {
+  top: -350px;
+}
+
 .triangle-two {
   top: 400px;
 }
 
+.triangle-five {
+  height: 0;
+  right: 43%;
+  top: -650px;
 }
 
-/*.swiper-container {
-  width: 350px;
-}*/
+.squiggle-six {
+  height: 0;
+  left: 45%;
+  top: 250px;
+}
+
+}
+
+
+
 
 .tiers ul {
   margin: 0; padding: 0;
 }
 
+.sign_up {
+  margin-bottom: 50px;
+}
 /* MAILCHIMP FORM */
 #mc_embed_signup {
   background-color: #F4F6F6;
