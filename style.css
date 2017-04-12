@@ -262,11 +262,17 @@ a {
    transition: 300 ease;
  }
 
+.tier_subtitle {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
  .tier_illustration {
    height: 200px;
  }
-
- 
 
  .pro {
    width: 400px;
