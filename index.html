@@ -34,6 +34,81 @@
   <body>
 
 
+  <div class="hidden-top-banner beta">
+  <div class="banner-container" style="display: flex; justifyContent: space-between;">
+    <div>
+      <h1>Hi 👋 Beta Tester!</h1>
+      <p>Get 3 months of our Pro tier for free.</p>
+    </div>
+
+    <div class="beta-form">
+      <input class="beta-team" type="text" placeholder="team">
+      <span>.slack.com</span>
+      <button class="submit-beta-form">Redeem</button>
+    </div>
+    <div class="beta-failure hidden">
+      <h1>Uh-oh.</h1>
+      <p>Looks like that code was already redeemed.</p>
+    </div>
+    <div class="beta-success hidden">
+      <h1>Success!</h1>
+      <p>Add Smallchat to your team's Slack and start chatting!</p>
+      <div class="slack_button_container" style="height: 52px;">
+         <a
+          href='https://slack.com/oauth/authorize?scope=channels:write,groups:write,bot,commands,chat:write:bot,users:read,team:read&client_id=73100902978.130145105494' style="margin-top: 10px;">
+          <img
+            alt='Add to Slack'
+            src='imgs/add-to-slack.png'
+            class="slack_button"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="hidden-top-banner producthunt">
+  <div style="position: absolute; bottom: 0; left: 0; width: 100vw; height: 70px;">
+  <div class="banner-container" style="display: flex; justify-content: space-between;">
+
+    <div style="display: flex; justify-content: space-between;">
+
+      <img width="65px" height="65px" src="imgs/producthunt-smallchat.png"/>
+      <div style="padding-left: 10px;">
+      <h1>Hi 👋 ProductHunt!</h1>
+      <p style="margin: -4px 0 0 0;">Get a month of our Pro tier for free.</p>
+      </div>
+    </div>
+
+    <div class="ph-form" style="margin: 15px 0 0 10px">
+      <input class="ph-team" type="text" placeholder="team" style="text-align: right; font-size: 15px; height: 35px; padding: 5px; border: none; outline: none; width: 100px; font-weight: 500;">
+      <span style="font-weight: 500;">.slack.com</span>
+      <button class="submit-ph-form">Give me a free month!</button>
+    </div>
+
+    <div class="ph-failure hidden">
+      <h1>Double tap!</h1>
+      <p>Looks like a free month has already been redeemed for your team.</p>
+    </div>
+    <div class="ph-success hidden" style="display: none;">
+      <div style="display: flex; justify-content: space-between; max-width: 400px;">
+      <p style="padding: 16px 9px; line-height: 16px;"><b>Success!</b> Now add Smallchat to your team's Slack!</p>
+      <div class="slack_button_container" style="height: 52px; padding: 9px;">
+         <a
+          href='https://slack.com/oauth/authorize?scope=channels:write,groups:write,bot,commands,chat:write:bot,users:read,team:read&client_id=73100902978.130145105494' style="margin-top: 10px;">
+          <img
+            alt='Add to Slack'
+            src='imgs/add-to-slack.png'
+            class="slack_button"
+          />
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
 	  <div class="container">
       <div class="section">
   	  	<div class="title_block header_info">
@@ -565,6 +640,70 @@
 
 
 	  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+     
+
+      $(function(){
+
+        var url = "https://us-central1-slackchatv1.cloudfunctions.net/";
+        function getURLParameter(name) {
+          return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+        }
+
+        var code = getURLParameter("betaCode");
+        var ref = getURLParameter("ref");
+
+        if($(window).width() > 700){
+          if(code){
+            $('.hidden-top-banner.beta').addClass('show')
+          } else if(ref == "producthunt"){
+            setTimeout(function(){
+              $('.hidden-top-banner.producthunt').addClass('show')
+             }, 4000)
+          }
+        }
+
+        $('.submit-ph-form').click(function(){
+          var team = $('.ph-team').val();
+          $.ajax({
+            type: "POST",
+            url: url + "redeemProductHunt",
+            data: JSON.stringify({ team: team }),
+            contentType: "application/json",
+            success: function(res){
+              if(res == "success"){
+                $('.ph-success').show()
+                $('.ph-form').hide()
+              }else {
+                $('.ph-failure').show()
+                $('.ph-form').hide()
+              }
+            },
+          });
+        });
+
+        $('.submit-beta-form').click(function(){
+          var team = $('.beta-team').val();
+          $.ajax({
+            type: "POST",
+            url: url + "redeemInvite",
+            data: { team: team, code: window.code },
+            contentType: "application/json",
+            success: function(res){
+              if(res == "success"){
+                $('.beta-success').show()
+                $('.beta-form').hide()
+              } else {
+                $('.beta-error').show()
+                $('.beta-form').hide()
+              }
+            },
+          });
+        });
+      })
+    </script>
 
     <!-- PARALAX -->
     <script type="text/javascript" src="rellax.min.js"></script>
