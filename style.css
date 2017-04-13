@@ -17,6 +17,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .show-large { display: none; }
 .hide-large { display: block; }
 @media(min-width: 1200px){
@@ -1293,4 +1297,3 @@ input {
 .hidden-top-banner .hidden{
   display: none;
 }
-
