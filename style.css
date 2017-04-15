@@ -851,10 +851,6 @@ a {
 
 @media screen and (max-width: 700px) {
 
-  .slack_window {
-    display: none;
-  }
-
   .above {
     display: none;
   }
