@@ -415,6 +415,18 @@ a {
   /*bottom: 50px;*/
 }
 
+#ClientChat > * {
+  opacity: 0;
+}
+
+#UserChat > * {
+  opacity: 0;
+}
+
+#ClientChat2 > * {
+  opacity: 0;
+}
+
 
 /*ADD TO SLACK BUTTON*/
 .slack_button {
@@ -1207,6 +1219,14 @@ input {
   border-radius: 4px;
   border: none;
   height: 40px;
+  font-size: 16px;
+}
+
+input[type=text]:focus , input[type=email]:focus {
+  border: 2px solid #2c2c46;
+  box-shadow: 0 0 0;
+  outline: none;
+  border-radius: 4px;
 }
 
 .button {
