@@ -708,7 +708,7 @@ a {
 
   .tiers h2 {
     text-align: center;
-    line-height: 30px;
+    line-height: 36px;
     margin: 0 auto;
   }
 
@@ -720,6 +720,10 @@ a {
   .free_tier_info h2, .pro_tier_info h2 {
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .price-tier a {
+    margin-bottom: 20px;
   }
 
   .free {
@@ -830,6 +834,10 @@ a {
 }
 
 @media screen and (max-width: 700px) {
+
+  .slack_window {
+    display: none;
+  }
 
   .above {
     display: none;
