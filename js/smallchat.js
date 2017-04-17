@@ -73,16 +73,16 @@ $.Velocity
        setTimeout(function () {
         //  $('#ClientChat').velocity('smallchat.slideRightIn')
          $('#ClientChat').children().velocity('smallchat.slideRightIn', { opacity: 1 }, { stagger: 30 });
-       }, 500)
+       }, 1500)
        setTimeout(function () {
         //  $('#UserChat').velocity('smallchat.slideLeftIn')
          $('#UserChat').children().velocity('smallchat.slideLeftIn', { opacity: 1 }, { stagger: 30 });
-       }, 1000)
+       }, 2500)
        setTimeout(function () {
         //  $('#ClientChat2').velocity('smallchat.slideRightIn')
          $('#ClientChat2').children().velocity('smallchat.slideRightIn', { opacity: 1 }, { stagger: 30 });
-       }, 1300)
+       }, 3500)
    })()
 
 
-    $('.slack').velocity('smallchat.fadeIn' {delay: 500})
+    $('.slack').velocity('smallchat.fadeIn', {delay: 500})
