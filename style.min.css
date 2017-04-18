@@ -242,7 +242,7 @@ a {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  margin: 20px 60px 0 60px;
+  padding: 20px 60px 0 60px;
 }
 
 .feature_img {
@@ -251,6 +251,11 @@ a {
   margin-bottom: 10px;
   height: 80px;
   margin-bottom: 40px;
+}
+
+.feature_img img {
+  height: 80px;
+  width: auto;
 }
 
 .feature_info {
@@ -275,6 +280,7 @@ a {
 .feature p {
   margin: 0px;
   text-align: center;
+  max-width: 100%;
 }
 /*  PRICING  */
 
@@ -767,7 +773,7 @@ a {
     height: 100px;
   }
 
-  .feature object {
+  .feature img {
     width: 80px;
   }
 
