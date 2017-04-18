@@ -699,7 +699,8 @@ a {
   .header_info {
     margin-left: 0;
   }
-  .header_info p, h2 {
+  .header_info p,
+  .header_info h2 {
     width: 40vw;
     margin-right: 0;
   }
@@ -734,7 +735,8 @@ a {
     margin-left: 100px;
   }
 
-  .slack_info p, h2 {
+  .slack_info p,
+  .slack_info h2 {
     width: 50vw;
     margin-right: 0;
   }
@@ -991,7 +993,8 @@ a {
   .header_info {
     margin-left: 0;
   }
-  .header_info p, h2 {
+  .header_info p,
+  .header_info h2 {
     width: 80vw;
     margin-right: 0;
   }
@@ -1026,7 +1029,8 @@ a {
     margin-left: 10px;
   }
 
-  .slack_info p, h2 {
+  .slack_info p,
+  .slack_info h2 {
     width: 80vw;
     max-width: 250px;
     margin-right: 0;
