@@ -8,15 +8,14 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
   font-family: 'Rubik', sans-serif;
   background-color: white;
   color: #2C2C46;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::-webkit-scrollbar {
@@ -74,8 +73,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	max-width: 1s;
-  margin: 0 auto;
+  overflow: hidden;
 }
 
 
