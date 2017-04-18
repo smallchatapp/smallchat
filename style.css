@@ -213,8 +213,9 @@ a {
 .feature {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  width: 300px;
   height: 300px;
+  max-width: 300px;
   align-items: center;
   justify-content: center;
   margin: 20px 60px 0 60px;
@@ -235,6 +236,7 @@ a {
 .feature_info {
   display: flex;
   height: 200px;
+  width: 100%;
   flex-direction: column;
   align-content: flex-end;
   align-items: center;
