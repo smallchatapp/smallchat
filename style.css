@@ -145,6 +145,7 @@ a {
 }
 
 .slack_info {
+  width: 30%;
   position: relative;
   right: 5%;
 }
@@ -172,6 +173,7 @@ a {
 .card_info {
 	display: -ms-flexbox;
 	display: flex;
+  width: 100%;
   max-width: 400px;
   margin-right: 100px;
 	-ms-flex-direction: column;
@@ -203,6 +205,7 @@ a {
 .card_info_r {
 	display: -ms-flexbox;
 	display: flex;
+  width: 100%;
   max-width: 600px;
   margin-left: 100px;
 	-ms-flex-direction: column;
