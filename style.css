@@ -1267,7 +1267,7 @@ input[type=text]:focus , input[type=email]:focus {
   width: 100vw;
   height: 0;
   overflow: hidden;
-  background: rgba(44,44,70,1);
+  background: #e55088;
   transition: height 1s ease;
   z-index: 999;
   position: fixed;
