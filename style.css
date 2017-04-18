@@ -213,7 +213,7 @@ a {
 .feature {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 33.3333%;
   height: 300px;
   max-width: 300px;
   align-items: center;
