@@ -64,6 +64,7 @@ $.Velocity
 
 
    (function () {
+     if (window.innerWidth > 480) {
        $('#Illustration').velocity('smallchat.fadeIn')
       //  $('#ChatBackground').velocity('smallchat.fadeIn', { delay: 50 });
       //  setTimeout(function () {
@@ -82,7 +83,5 @@ $.Velocity
         //  $('#ClientChat2').velocity('smallchat.slideRightIn')
          $('#ClientChat2').children().velocity('smallchat.slideRightIn', { opacity: 1 }, { stagger: 30 });
        }, 3500)
+     }
    })()
-
-
-    $('.slack').velocity('smallchat.fadeIn', {delay: 500})
