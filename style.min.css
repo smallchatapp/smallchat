@@ -242,7 +242,7 @@ a {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  padding: 20px 60px 0 60px;
+  margin: 20px 60px 0 60px;
 }
 
 .feature_img {
