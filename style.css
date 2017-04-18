@@ -12,6 +12,8 @@ body {
   font-family: 'Rubik', sans-serif;
   background-color: white;
   color: #2C2C46;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
