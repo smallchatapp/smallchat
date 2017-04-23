@@ -409,7 +409,18 @@ a {
   margin-bottom: 0px;
 }
 
+.footer_info a {
+  transition: all 200ms ease;
+}
+
+.footer_info a:hover {
+  -ms-transform: scale(.98);
+      transform: scale(.98);
+  opacity: .8;
+}
+
 .social_links {
+  padding-top: 10px;
   margin-top: 10px;
   margin-bottom: 120px;
 }
