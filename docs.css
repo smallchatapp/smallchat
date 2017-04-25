@@ -17,6 +17,10 @@ ul {
   padding-top: 20px;
 }
 
+li {
+  line-height: 26px;
+}
+
 .navigation {
   background-color: #F4F6F6;
   height: 100vh;
