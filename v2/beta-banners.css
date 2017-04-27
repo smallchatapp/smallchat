@@ -1,0 +1,61 @@
+.hidden-top-banner {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 0;
+  overflow: hidden;
+  background: #e55088;
+  transition: height 1s ease;
+  z-index: 999;
+  position: fixed;
+}
+.hidden-top-banner .banner-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.hidden-top-banner h1 {
+  font-size: 25px;
+  margin: 7px 0 0 0;
+}
+.hidden-top-banner p {
+  font-size: 13px;
+  margin: 0;
+}
+.hidden-top-banner button {
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  transition: transform .2s ease;
+  cursor: pointer;
+}
+
+.hidden-top-banner button:hover {
+  -ms-transform: scale(1.05);
+      transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+
+.hidden-top-banner.producthunt {
+  background: #da552f;
+  background: rgb(255, 130, 82);
+  color: white;
+}
+.hidden-top-banner h1, .hidden-top-banner p{
+  color: white;
+}
+
+.hidden-top-banner.show{
+  height: 70px;
+}
+
+.hidden-top-banner .hidden{
+  display: none;
+}

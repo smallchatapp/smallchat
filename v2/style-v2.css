@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  background-color: white;
+  color: #2C2C46;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.show-large { display: none; }
+.hide-large { display: block; }
+@media(min-width: 1200px){
+  .show-large{ display: block; }
+  .hide-large { display: none; }
+}
+
+strong {
+  font-weight: 500;
+}
+
+h1 {
+  margin: 0;
+	font-family: 'Rubik';
+	font-weight: 500;
+	font-size: 54px;
+  line-height: 60px;
+	color: #2C2C46;
+}
+
+h2 {
+  margin: 0;
+	font-family: 'Rubik';
+	font-weight: 500;
+	color: #2C2C46;
+	font-size: 40px;
+	line-height: 44px;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+	font-family: 'Rubik';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #2C2C46;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+  color: #2C2C46;
+}
+
+.container {
+	display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+  overflow: hidden;
+}
+
+
+/*  ~~~~~~~~~~  HEADER  ~~~~~~~~~~  */
+
+header {
+  position: fixed;
+  height: 90px;
+  width: 100vw;
+  background-color: white;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 30px;
+  max-width: 1200px;
+}
+
+.header_links > * {
+  padding: 0px 20px;
+}
+
+
+/*  ~~~~~~~~~~  FOOTER  ~~~~~~~~~~  */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  width: 100vw;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: #F4F6F6;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footer > div {
+  padding: 0px 50px;
+}
+
+.footer_info {
+	display: flex;
+  width: 50%;
+  max-width: 600px;
+	flex-direction: column;
+  justify-content: space-between;
+}
+
+.fa {
+  font-size: 30px;
+  color: #2C2C46;
+}
+
+.social_links {
+  padding-top: 10px;
+}
+
+.social_links a, .social_links i {
+  padding-right: 10px;
+  transition: all 200ms ease;
+}
+
+.social_links a:hover, .social_links i:hover {
+  transform: scale(.90);
+  opacity: .8;
+}
