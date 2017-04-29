@@ -33,49 +33,47 @@ strong {
   font-weight: 500;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6, p, a {
   margin: 0;
-	font-family: 'Rubik';
+  font-family: 'Rubik';
+  color: #2C2C46;
+}
+
+h1 {
 	font-weight: 500;
 	font-size: 54px;
   line-height: 60px;
-	color: #2C2C46;
 }
 
 h2 {
-  margin: 0;
-	font-family: 'Rubik';
 	font-weight: 500;
-	color: #2C2C46;
 	font-size: 40px;
 	line-height: 44px;
 }
 
 h3 {
-  margin: 0;
   font-weight: 500;
   font-size: 24px;
 }
 
+h6 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
 p {
-  margin: 0;
-	font-family: 'Rubik';
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
-	color: #2C2C46;
 }
 
 a {
-  margin: 0;
   text-decoration: none;
-  color: #2C2C46;
 }
 
 section {
   display: flex;
   width: 100%;
-  max-width: 1200px;
   padding-top: 100px;
 }
 
@@ -117,6 +115,7 @@ header {
 
 
 .homepage {
+  max-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,8 +143,10 @@ header {
 .homepage_chat {
   display: flex;
   flex-direction: column;
+  position: relative;
+  left: 5%;
   padding-top: 150px;
-  padding-left: 50px;
+  padding-left: 20px;
   width: 325px;
 }
 
@@ -197,13 +198,173 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 150px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .slack_window img {
-  width: 900px;
+  width: 1000px;
+}
+
+.slack_window {
+  position: relative;
+  right: 20%;
+  width: 60%;
+}
+
+.slack_info {
+  width: 30%;
+}
+
+/*  ~~~~~~~~~~  WORKFLOW  ~~~~~~~~~~  */
+
+.workflow {
+  flex-direction: column;
+  max-width: 1200px;
+  padding-bottom: 300px;
+}
+
+.workflow_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.workflow_rev {
+  flex-direction: row-reverse;
+}
+
+.workflow_info {
+  width: 45%;
+  flex-direction: column;
+}
+
+.workflow_img {
+  display: flex;
+  justify-content: center;
+  width: 50%;
 }
 
 
+/*  ~~~~~~~~~~  WIDGETS  ~~~~~~~~~~  */
+
+.widgets {
+  width: 150vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(0,0,0,.15);
+  transform: rotate(-7deg);
+  padding-bottom: 200px;
+}
+
+.widgets > * {
+  transform: rotate(7deg);
+  margin: 0 auto;
+}
+
+.widget_cloud {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*  ~~~~~~~~~~  COMPANIES  ~~~~~~~~~~  */
+
+.companies {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+
+.companies_logo {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies_logo > img {
+  padding: 5px;
+}
+
+
+
+/*  ~~~~~~~~~~  SOCIAL LOVE  ~~~~~~~~~~  */
+
+.social {
+  width: 120vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+
+.social_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.social_collection {
+  display: flex;
+  flex-direction: column;
+}
+
+.social_row_one, .social_row_two {
+  display: flex;
+}
+
+.social_row_two {
+  position: relative;
+  left: 100px;
+}
+
+.social_card {
+  padding: 20px;
+}
+
+.social_card_info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+
+.social_card_info > img {
+  padding-right: 20px;
+}
+
+.social_card_content {
+  padding-top: 10px;
+}
+
+.social_card_link {
+  margin: 10px;
+  border: 1px solid #E6EAEB;
+  border-radius: 6px;
+  box-shadow: 0 0 0px rgba(0,0,0,.2);
+  transition: all 300ms ease;
+}
+
+.social_card_link:hover {
+  border: 1px solid #f4f6f6;
+  border-radius: 6px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  transform: scale(1.02);
+  transition: all 300ms ease;
+}
 
 /*  ~~~~~~~~~~  FOOTER  ~~~~~~~~~~  */
 
