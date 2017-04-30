@@ -62,3 +62,36 @@
 .feature_suggestion h4 {
   padding-top: 20px;
 }
+
+
+@media screen and (max-width: 700px) {
+  .feature_set {
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px;
+  }
+
+  .feature {
+    margin: 0px;
+    width: 40vw;
+  }
+
+  .feature img {
+    width: 50px;
+  }
+
+  .feature p {
+    text-align: center;
+    width: 40vw;
+  }
+
+  .feature_suggestion {
+    padding: 100px 0px 150px 0px;
+  }
+
+  .feature_suggestion h2, .feature_suggestion h4 {
+    max-width: 80%;
+    text-align: center;
+  }
+
+}

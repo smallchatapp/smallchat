@@ -286,6 +286,10 @@ header {
   padding-left: 10px;
 }
 
+.slack_info > h2 {
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width: 700px) {
   .slack {
     flex-direction: column;
@@ -316,6 +320,10 @@ header {
   width: 45%;
   flex-direction: column;
   padding: 10px;
+}
+
+.workflow_info > h2 {
+  padding-bottom: 20px;
 }
 
 .workflow_img {
