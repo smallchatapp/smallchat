@@ -1,0 +1,84 @@
+/*  ~~~~~~~~~~  PRICING TITLE  ~~~~~~~~~~  */
+
+/*.pricing_title {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px;
+}*/
+
+
+/*  ~~~~~~~~~~  PRICING CARDS  ~~~~~~~~~~  */
+.tiers {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+}
+
+.price_cards {
+  display: flex;
+ }
+
+.price_tier {
+  width: 400px;
+  margin: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #f4f6f6;
+  border-radius: 6px;
+  box-shadow: 0 0 0px rgba(0,0,0,.2);
+  transition: 300 ease;
+ }
+
+.tier_subtitle {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.tier_illustration {
+  height: 200px;
+ }
+
+.pro {
+  width: 400px;
+  margin: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #f4f6f6;
+  border-radius: 6px;
+  box-shadow: 0 0 0px rgba(0,0,0,.2);
+  transition: all 300ms ease;
+ }
+
+.pro_tier_info {
+  width: 275px;
+}
+
+.free {
+  width: 400px;
+  margin: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid white;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  transition: all 300ms ease;
+ }
+
+.free:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 60px rgba(0,0,0,.2);
+ }
