@@ -77,15 +77,20 @@ a {
 }
 
 section {
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
 
 .container {
+	display: -ms-flexbox;
 	display: flex;
-  flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
 	width: 100%;
   overflow: hidden;
 }
@@ -134,10 +139,14 @@ header {
 }
 
 .header_nav {
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   margin: 0 auto;
   padding: 30px 100px;
   max-width: 1200px;
@@ -149,9 +158,12 @@ header {
 
 @media screen and (max-width: 700px) {
   .header_nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
     padding: 20px 20px;
   }
 
@@ -170,9 +182,12 @@ header {
 
 .homepage {
   max-width: 1200px;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding: 0 100px;
 }
 
@@ -197,8 +212,10 @@ header {
 }
 
 .homepage_chat {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   position: relative;
   left: 5%;
   padding-top: 150px;
@@ -211,14 +228,18 @@ header {
 }
 
 #chat-one, #chat-three {
+  display: -ms-flexbox;
   display: flex;
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   opacity: 0;
 }
 
 #chat-two {
+  display: -ms-flexbox;
   display: flex;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   opacity: 0;
 }
 
@@ -267,9 +288,12 @@ header {
 /*  ~~~~~~~~~~  SLACK  ~~~~~~~~~~  */
 
 .slack {
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   padding: 150px 100px;
   max-width: 1200px;
   margin: 0 auto;
@@ -294,7 +318,8 @@ header {
 
 @media screen and (max-width: 700px) {
   .slack {
-    flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     padding: 150px 40px;
   }
 }
@@ -302,25 +327,31 @@ header {
 /*  ~~~~~~~~~~  WORKFLOW  ~~~~~~~~~~  */
 
 .workflow {
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   max-width: 1200px;
   padding: 0px 100px 300px 100px;
 }
 
 .workflow_card {
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding-top: 200px;
 }
 
 .workflow_rev {
-  flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
 }
 
 .workflow_info {
   width: 45%;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   padding: 10px;
 }
 
@@ -329,8 +360,10 @@ header {
 }
 
 .workflow_img {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   width: 50%;
 }
 
@@ -354,7 +387,8 @@ header {
 
   .workflow_card {
     padding-top: 0px;
-    flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
   }
 }
 
@@ -363,17 +397,23 @@ header {
 .widgets {
   width: 150vw;
   height: 110vh;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   box-shadow: 0 0 30px rgba(0,0,0,.15);
-  transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+      transform: rotate(-7deg);
   padding: 100px 0 100px 0;
 }
 
 .widgets > * {
-  transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+      transform: rotate(7deg);
   margin: 0 auto;
 }
 
@@ -385,9 +425,12 @@ header {
 .widget_cloud {
   width: 90%;
   max-width: 1200px;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .widget_cloud > img {
@@ -412,17 +455,23 @@ header {
 /*  ~~~~~~~~~~  COMPANIES  ~~~~~~~~~~  */
 
 .companies {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding-top: 300px;
 }
 
 .companies_logo {
   padding-top: 60px;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .companies_logo > img {
@@ -442,7 +491,8 @@ header {
   }
 
   .companies_logo {
-    flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
   }
 
   .companies_logo > img {
@@ -456,17 +506,23 @@ header {
 
 .social {
   width: 120vw;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding-top: 200px;
   padding-bottom: 300px;
 }
 
 .social_title {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
   padding-bottom: 60px;
 }
 
@@ -476,15 +532,19 @@ header {
 }
 .social_twitter h2:hover {
   text-shadow: 3px 3px #4CFFFA;
-  transform: scale(1.02);
+  -ms-transform: scale(1.02);
+      transform: scale(1.02);
 }
 
 .social_collection {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .social_row_one, .social_row_two {
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -499,9 +559,12 @@ header {
 }
 
 .social_card_info {
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
   padding-bottom: 20px;
 }
 
@@ -525,7 +588,8 @@ header {
   border: 1px solid #f4f6f6;
   border-radius: 6px;
   box-shadow: 0 0 30px rgba(0,0,0,.2);
-  transform: scale(1.02);
+  -ms-transform: scale(1.02);
+      transform: scale(1.02);
   transition: all 200ms ease;
 }
 
@@ -549,8 +613,10 @@ header {
 
 footer {
   bottom: 0;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
   width: 100vw;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -558,8 +624,10 @@ footer {
 }
 
 .footer {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -569,11 +637,14 @@ footer {
 }
 
 .footer_info {
+	display: -ms-flexbox;
 	display: flex;
   width: 50%;
   max-width: 600px;
-	flex-direction: column;
-  justify-content: space-between;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .fa {
@@ -591,14 +662,16 @@ footer {
 }
 
 .social_links a:hover, .social_links i:hover {
-  transform: scale(.90);
+  -ms-transform: scale(.90);
+      transform: scale(.90);
   opacity: .8;
 }
 
 @media screen and (max-width: 700px) {
 
   .footer {
-    flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
   }
 
   .footer > div {

@@ -1,8 +1,11 @@
 /*  ~~~~~~~~~~  INTRO  ~~~~~~~~~~  */
 .feature_title {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding: 200px 0px;
 }
 
@@ -10,8 +13,10 @@
 
 .feature_set {
   margin: 0 auto;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 20px;
   max-width: 1200px;
 }
@@ -20,9 +25,12 @@
   margin: 0px;
   padding-bottom: 60px;
   width: 30%;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .feature_img {
@@ -48,9 +56,12 @@
 /*  ~~~~~~~~~~  ADDITIONS  ~~~~~~~~~~  */
 
 .feature_suggestion {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding: 200px 0px 300px 0px;
 }
 
@@ -66,7 +77,8 @@
 
 @media screen and (max-width: 700px) {
   .feature_set {
-    justify-content: space-between;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     margin-top: 100px;
     padding: 20px;
   }

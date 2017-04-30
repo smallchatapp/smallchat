@@ -10,13 +10,17 @@
 
 /*  ~~~~~~~~~~  PRICING CARDS  ~~~~~~~~~~  */
 .tiers {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding: 200px 0;
 }
 
 .price_cards {
+  display: -ms-flexbox;
   display: flex;
  }
 
@@ -25,9 +29,12 @@
   margin: 50px;
   padding-bottom: 50px;
   padding-top: 50px;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
   border: 1px solid #f4f6f6;
   border-radius: 6px;
   box-shadow: 0 0 0px rgba(0,0,0,.2);
@@ -51,9 +58,12 @@
   margin: 50px;
   padding-bottom: 50px;
   padding-top: 50px;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
   border: 1px solid #f4f6f6;
   border-radius: 6px;
   box-shadow: 0 0 0px rgba(0,0,0,.2);
@@ -69,9 +79,12 @@
   margin: 50px;
   padding-bottom: 50px;
   padding-top: 50px;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
   border-radius: 6px;
   border: 1px solid white;
   box-shadow: 0 0 30px rgba(0,0,0,.2);
@@ -79,7 +92,8 @@
  }
 
 .free:hover {
-  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+      transform: scale(1.05);
   box-shadow: 0 0 60px rgba(0,0,0,.2);
  }
 
@@ -87,7 +101,8 @@
  @media screen and (max-width: 700px) {
 
    .price_cards {
-     flex-direction: column;
+     -ms-flex-direction: column;
+         flex-direction: column;
    }
 
    .free {
@@ -107,15 +122,21 @@
    }
 
    .pro_tier_info {
+     display: -ms-flexbox;
      display: flex;
-     flex-direction: column;
-     align-items: center;
+     -ms-flex-direction: column;
+         flex-direction: column;
+     -ms-flex-align: center;
+         align-items: center;
    }
 
    .free_tier_info {
+     display: -ms-flexbox;
      display: flex;
-     flex-direction: column;
-     align-items: center;
+     -ms-flex-direction: column;
+         flex-direction: column;
+     -ms-flex-align: center;
+         align-items: center;
    }
 
    .tier_illustration {
