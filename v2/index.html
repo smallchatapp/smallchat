@@ -157,8 +157,7 @@
       </div>
     </section>
 
-    <section>
-      <div class="slack">
+    <section class="slack">
         <div class="slack_window">
             <img src="svgs/slack.svg" />
   	  	</div>
@@ -168,7 +167,6 @@
           <p><strong>Each conversation creates a new thread,</strong> allowing your team to manage it all from one place.</p>
           <p><i style="color: #B3B3C0;">Pro Tip: With Smallchat Pro, you can add additional sites in their own channel.</i></p>
   	  	</div>
-      </div>
     </section>
 
     <section class="workflow">
@@ -199,7 +197,7 @@
       <div class="widget_cloud">
         <img src="imgs/top-l.png" />
       </div>
-      <h1 style="text-align: center; padding: 100px;">Style to match your unique brand.</h1>
+      <h1 class="widgets_title">Style to match your unique brand.</h1>
       <div class="widget_cloud">
         <img src="imgs/bottom-l.png" />
       </di>
@@ -215,10 +213,15 @@
       </div>
     </section>
 
+    <!-- <section class="testing">
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Need help on our app but don&#39;t know where to start? Read about our cool new Smallchat feature here: <a href="https://t.co/yoySN01SDf">https://t.co/yoySN01SDf</a> 💬</p>&mdash; Vibe Tickets (@VibeTickets) <a href="https://twitter.com/VibeTickets/status/858274850682613760">April 29, 2017</a></blockquote>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </section> -->
+
     <section class="social">
       <div class="social_title">
         <i class="fa fa-heart" aria-hidden="true" style="color: #FEBCFF"></i>
-        <a href="http://twitter.com/smallchatapp"><h2>@smallchatapp</h2></a>
+        <a class="social_twitter" href="http://twitter.com/smallchatapp"><h2>@smallchatapp</h2></a>
       </div>
       <div class="social_collection">
         <div class="social_row_one">
@@ -544,48 +547,6 @@
     	var rellax = new Rellax('.rellax', {
         // center: true
       });
-    </script>
-    <script>
-     var pro = document.querySelector('.pro');
-     var free = document.querySelector('.free');
-
-         pro.onmouseenter = function () {
-           if (this.className == 'pro') {
-             this.className = 'free';
-             free.addClass = function() {
-               this.className = ('pro')
-             };
-           }
-           else {
-             free.className = 'pro'
-             this.className = 'free'
-           }
-         };
-
-         pro.onmouseleave = function () {
-           if (this.className == 'free')
-             this.className = 'pro';
-           else {
-             this.className = 'pro'
-           }
-         };
-
-         free.onmouseenter = function () {
-           if (this.className == 'pro')
-             this.className = 'free';
-           else {
-             this.className = 'free'
-           }
-         };
-
-         free.onmouseleave = function () {
-           if (this.className == 'free')
-             this.className = 'pro';
-           else {
-             this.className = 'pro'
-           }
-         };
-
     </script>
 
     <!-- <script src="https://embed.small.chat/T252YSJUSC4WHC2BUP.js" async></script> -->

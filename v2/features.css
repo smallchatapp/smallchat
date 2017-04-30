@@ -7,7 +7,9 @@
 }
 
 /*  ~~~~~~~~~~  FEATURE SET  ~~~~~~~~~~  */
+
 .feature_set {
+  margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px;
@@ -49,7 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 200px 0px;
+  padding: 200px 0px 300px 0px;
 }
 
 .feature_suggestion h2, .feature_suggestion h4 {

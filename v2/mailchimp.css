@@ -75,3 +75,9 @@ input[type=text]:focus , input[type=email]:focus {
   border: 1px solid #2C2C46;
   box-shadow: 8px 8px rgba(76,255,250,1);
 }
+
+@media screen and (max-width: 700px) {
+  #mc_embed_signup {
+    padding-bottom: 40px;
+  }
+}
