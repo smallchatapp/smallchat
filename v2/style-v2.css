@@ -555,7 +555,6 @@ header {
 
 .social_card {
   padding: 20px;
-  min-width: 250px;
 }
 
 .social_card_info {
@@ -569,14 +568,27 @@ header {
 }
 
 .social_card_info > img {
-  padding-right: 20px;
+  width: 40px;
+  border-radius: 6px;
 }
 
 .social_card_content {
   padding-top: 10px;
 }
 
+/*.social_card_content > a {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #B3B3C0;
+}*/
+
+.social_card_info_links {
+  padding-left: 20px;
+}
+
 .social_card_link {
+  width: 20vw;
+  min-width: 250px;
+  max-width: 400px;
   margin: 10px;
   border: 1px solid #E6EAEB;
   border-radius: 6px;
