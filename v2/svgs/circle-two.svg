@@ -1,3 +1,7 @@
-<svg width="97px" height="97px" viewBox="73 2196 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <ellipse id="focusCircle-Copy" stroke="#2C2C46" stroke-width="10" fill="none" cx="121.5" cy="2244.5" rx="43.5" ry="43.5"></ellipse>
+<svg width="99px" height="99px" viewBox="0 0 99 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Smallchat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME" transform="translate(-963.000000, -5297.000000)" stroke-width="8" stroke="#2C2C46">
+            <circle id="focusCircle-Copy-5" cx="1012.5" cy="5346.5" r="45.5"></circle>
+        </g>
+    </g>
 </svg>
