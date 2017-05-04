@@ -1,0 +1,83 @@
+/* MAILCHIMP FORM */
+#mc_embed_signup {
+  background-color: #F4F6F6;
+}
+
+#mc_embed_signup h2 {
+  text-align: left;
+}
+
+#mc_embed_signup h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.mc-field-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.mc-row-one {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.mc-name {
+  margin-right: 40px;
+}
+
+.mc-row-two {
+  margin-top: 10px;
+}
+
+label {
+  font-family: 'Rubik';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 26px;
+	color: #2C2C46;
+}
+
+input {
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 2px solid white;
+  padding: 5px;
+  height: 40px;
+  font-size: 16px;
+}
+
+input[type=text]:focus , input[type=email]:focus {
+  border: 2px solid #2c2c46;
+  padding: 5px;
+  box-shadow: 0 0 0;
+  outline: none;
+  border-radius: 4px;
+}
+
+.button {
+  height: 40px;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 20px;
+  color: #2C2C46;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+  border: 1px solid #B3B3C0;
+  border-radius: 6px;
+  box-shadow: 0px 0px rgba(76,255,250,0);
+  transition: all 200ms ease;
+}
+.button:hover {
+  border: 1px solid #2C2C46;
+  box-shadow: 8px 8px rgba(76,255,250,1);
+}
+
+@media screen and (max-width: 700px) {
+  #mc_embed_signup {
+    padding-bottom: 40px;
+  }
+}
