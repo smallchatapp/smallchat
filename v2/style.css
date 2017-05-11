@@ -82,6 +82,10 @@ section {
   width: 100%;
 }
 
+img, svg {
+  border: none;
+}
+
 .container {
 	display: -ms-flexbox;
 	display: flex;
@@ -167,8 +171,8 @@ header {
     padding: 20px 20px;
   }
 
-  .header_nav img {
-    width: 160px;
+  .header_nav > img {
+    width: 100px;
     padding-bottom: 20px;
   }
 
@@ -555,9 +559,10 @@ header {
       flex-direction: column;
 }
 
-.social_row_one, .social_row_two {
+.social_row_one > ul, .social_row_two > ul {
   display: -ms-flexbox;
   display: flex;
+  margin: 0px;
 }
 
 .social_row_two {
@@ -593,6 +598,7 @@ header {
 }
 
 .social_card_link {
+  list-style: none;
   width: 20vw;
   min-width: 250px;
   max-width: 400px;
