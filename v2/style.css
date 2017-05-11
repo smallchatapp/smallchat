@@ -318,6 +318,7 @@ header {
 
 #slack_illustration {
   width: 150%;
+  max-width: 1200px;
 }
 
 .slack_window {
