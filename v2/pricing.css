@@ -1,10 +1,14 @@
 /*  ~~~~~~~~~~  PRICING TITLE  ~~~~~~~~~~  */
 
 .pricing_title {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 200px 0px;
+  display: none;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 150px 0px;
 }
 
 
@@ -16,7 +20,7 @@
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 .price_cards {

@@ -348,7 +348,7 @@ header {
   -ms-flex-direction: column;
       flex-direction: column;
   max-width: 1200px;
-  padding: 0px 100px 300px 100px;
+  padding: 0px 100px 150px 100px;
 }
 
 .workflow_card {
@@ -413,7 +413,7 @@ header {
 /*  ~~~~~~~~~~  WIDGETS  ~~~~~~~~~~  */
 
 .widgets {
-  width: 150vw;
+  width: 100%;
   height: 110vh;
   display: -ms-flexbox;
   display: flex;
@@ -423,15 +423,15 @@ header {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  box-shadow: 0 0 30px rgba(0,0,0,.15);
-  -ms-transform: rotate(-7deg);
-      transform: rotate(-7deg);
+  /*box-shadow: 0 0 30px rgba(0,0,0,.15);*/
+  /*-ms-transform: rotate(-7deg);*/
+      /*transform: rotate(-7deg);*/
   padding: 100px 0 100px 0;
 }
 
 .widgets > * {
-  -ms-transform: rotate(7deg);
-      transform: rotate(7deg);
+  /*-ms-transform: rotate(7deg);
+      transform: rotate(7deg);*/
   margin: 0 auto;
 }
 
@@ -479,7 +479,7 @@ header {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  padding-top: 300px;
+  padding-top: 150px;
 }
 
 .companies_logo {
