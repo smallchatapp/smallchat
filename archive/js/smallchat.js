@@ -1,11 +1,10 @@
-
 /* ==========================================================================
    Custom Velocity Animations
    ========================================================================== */
 
 $.Velocity
   .RegisterEffect('smallchat.fadeIn', {
-    defaultDuration: 500,
+    defaultDuration: 400,
     calls: [[ { opacity: [1, 0] }, 1, { easing: [.5, 0, .15, .8] } ]]
   })
   .RegisterEffect('smallchat.fadeOut', {
@@ -63,21 +62,26 @@ $.Velocity
    Chat Window
    ========================================================================== */
 
+
    (function () {
      if (window.innerWidth > 480) {
+       $('#Illustration').velocity('smallchat.fadeIn')
+      //  $('#ChatBackground').velocity('smallchat.fadeIn', { delay: 50 });
+      //  setTimeout(function () {
+      //    $('#ChatInput').velocity('smallchat.fadeIn');
+      //    $('#ChatInput').children().velocity('smallchat.slideRightIn');
+      //  }, 200
        setTimeout(function () {
-         $('#chat-one').velocity('smallchat.slideRightIn', { opacity: 1 }, { stagger: 30 });
-       }, 500)
+        //  $('#ClientChat').velocity('smallchat.slideRightIn')
+         $('#ClientChat').children().velocity('smallchat.slideRightIn', { opacity: 1 }, { stagger: 30 });
+       }, 1500)
        setTimeout(function () {
-         $('#chat-two').velocity('smallchat.slideLeftIn', { opacity: 1 }, { stagger: 30 });
-       }, 800)
+        //  $('#UserChat').velocity('smallchat.slideLeftIn')
+         $('#UserChat').children().velocity('smallchat.slideLeftIn', { opacity: 1 }, { stagger: 30 });
+       }, 2500)
        setTimeout(function () {
-         $('#chat-three').velocity('smallchat.slideRightIn', { opacity: 1 }, { stagger: 30 });
-       }, 1200)
+        //  $('#ClientChat2').velocity('smallchat.slideRightIn')
+         $('#ClientChat2').children().velocity('smallchat.slideRightIn', { opacity: 1 }, { stagger: 30 });
+       }, 3500)
      }
    })()
-
-
-   /* ==========================================================================
-      Slack
-      ========================================================================== */
