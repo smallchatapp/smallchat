@@ -38,6 +38,51 @@
   </head>
   <body>
 
+  <div class="hidden-top-banner tech">
+    <div style="position: absolute; bottom: 0; left: 0; width: 100vw; height: 70px;">
+      <div class="banner-container" style="display: flex; justify-content: space-between;">
+
+        <div style="display: flex; justify-content: space-between;">
+
+          <img width="65px" height="65px" src="imgs/techpinions-smallchat.png"/>
+          <div style="padding-left: 10px;">
+            <h1>Hi 👋 Techpinions!</h1>
+            <p style="margin: -4px 0 0 0;">Get 2 months of our Pro tier for free.</p>
+          </div>
+        </div>
+
+        <div class="tech-form" style="margin: 15px 0 0 10px">
+          <input class="tech-team" type="text" placeholder="team" style="text-align: right; font-size: 15px; height: 35px; padding: 5px; border: none; outline: none; width: 100px; font-weight: 500;">
+          <span style="font-weight: 500;">.slack.com</span>
+          <button class="submit-tech-form">Give me 2 free months!</button>
+        </div>
+
+        <div class="tech-failure hidden">
+          <h1>Double tap!</h1>
+          <p>Looks like two free months have already been redeemed for your team.</p>
+        </div>
+
+        <div class="tech-success hidden" style="display: none;">
+          <div style="display: flex; justify-content: space-between; max-width: 400px;">
+          <p style="padding: 16px 9px; line-height: 16px;"><b>Success!</b> Now add Smallchat to your team's Slack!</p>
+          <div class="slack_button_container" style="height: 52px; padding: 9px;">
+             <a
+              href='https://slack.com/oauth/authorize?scope=channels:write,groups:write,bot,commands,chat:write:bot,users:read,team:read&client_id=73100902978.130145105494' style="margin-top: 10px;">
+              <img
+                style="height: 52px;"
+                alt='Add to Slack'
+                src='imgs/add-to-slack.png'
+                class="slack_button"
+              />
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="hidden-top-banner beta">
     <div style="position: absolute; bottom: 0; left: 0; width: 100vw; height: 70px;">
       <div class="banner-container" style="display: flex; justify-content: space-between;">
@@ -525,9 +570,13 @@
 
         var code = getURLParameter("betaCode");
         var ref = getURLParameter("ref");
+        console.log(ref);
 
         if($(window).width() > 700){
-          if(ref == "dribbble"){
+          if(ref == "techpinions"){
+            $('.hidden-top-banner.tech').addClass('show')
+            $('body').css('padding-top', '70px')
+          } else if(ref == "dribbble"){
             $('.hidden-top-banner.beta').addClass('show')
           } else if(ref == "producthunt"){
             setTimeout(function(){
@@ -535,6 +584,25 @@
              }, 4000)
           }
         }
+
+        $('.submit-tech-form').click(function(){
+          var team = $('.tech-team').val();
+          $.ajax({
+            type: "POST",
+            url: url + "redeemProductHunt",
+            data: JSON.stringify({ team: team }),
+            contentType: "application/json",
+            success: function(res){
+              if(res == "success"){
+                $('.tech-success').show()
+                $('.tech-form').hide()
+              }else {
+                $('.tech-failure').show()
+                $('.tech-form').hide()
+              }
+            },
+          });
+        });
 
         $('.submit-ph-form').click(function(){
           var team = $('.ph-team').val();
