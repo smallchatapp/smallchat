@@ -1,3 +1,7 @@
+body{
+  /*transition: padding-top .2s ease;*/
+}
+
 .example {
     display: -ms-flexbox;
     display: flex;
@@ -15,18 +19,19 @@
   overflow: hidden;
   background: #e55088;
   transition: height 1s ease;
-  z-index: 999;
+  z-index: 9999;
   position: fixed;
 }
 .hidden-top-banner .banner-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
 .hidden-top-banner h1 {
-  font-size: 25px;
+  font-size: 20px;
   margin: 7px 0 0 0;
+  line-height: 31px;
 }
 .hidden-top-banner p {
   font-size: 13px;
@@ -42,7 +47,8 @@
   font-weight: 500;
   margin-left: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
-  transition: transform .2s ease;
+  /*transition: transform .2s ease;*/
+  transition: none;
   cursor: pointer;
 }
 
@@ -52,6 +58,11 @@
   box-shadow: 0 0 20px rgba(0,0,0,.1);
 }
 
+.hidden-top-banner.tech {
+  background: rgb(44, 44, 70);
+  color: white;
+  transition: none;
+}
 .hidden-top-banner.producthunt {
   background: #da552f;
   background: rgb(255, 130, 82);
