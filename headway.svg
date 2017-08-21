@@ -1,0 +1,40 @@
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1">
+          <defs>
+            <linearGradient x1="50%" y1="-1.11022302e-14%" x2="50%" y2="100%" id="lg-1">
+              <stop stop-color="#32E7F9" offset="0%"></stop>
+              <stop stop-color="#17CAF0" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="lg-2">
+              <stop stop-color="#FFC505" offset="0%"></stop>
+              <stop stop-color="#FFB801" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="lg-3">
+              <stop stop-color="#FF4772" offset="0%"></stop>
+              <stop stop-color="#FF4422" offset="97.8117028%"></stop>
+            </linearGradient>
+            <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="lg-4">
+              <stop stop-color="#9D02F9" offset="0%"></stop>
+              <stop stop-color="#6301F0" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="50%" y1="0%" x2="50%" y2="98.1684471%" id="lg-5">
+              <stop stop-color="#3B29F6" offset="0%"></stop>
+              <stop stop-color="#6302F0" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="lg-6">
+              <stop stop-color="#D793FF" offset="0%"></stop>
+              <stop stop-color="#AE5AFF" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g>
+              <g>
+                <rect fill="url(#lg-1)" x="0" y="0" width="10" height="18" rx="5"></rect>
+                <rect fill="url(#lg-2)" x="0" y="19" width="10" height="14" rx="5"></rect>
+                <rect fill="url(#lg-3)" x="0" y="34" width="10" height="10" rx="5"></rect>
+                <rect fill="url(#lg-4)" x="34" y="0" width="10" height="27" rx="5"></rect>
+                <rect fill="url(#lg-5)" x="34" y="28" width="10" height="16" rx="5"></rect>
+                <rect fill="url(#lg-6)" x="12" y="18" width="20" height="10" rx="5"></rect>
+              </g>
+            </g>
+          </g>
+        </svg>
