@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-4ba768139dd884d6ab28.js",
-      "component---src-pages-index-js-4ba768139dd884d6ab28.js.map"
+      "component---src-pages-index-js-1f7cf6c672868fe9579e.js",
+      "component---src-pages-index-js-1f7cf6c672868fe9579e.js.map"
     ],
     "path---features": [
       "path---features-a0e39f21c11f6a62c5ab.js",
@@ -13,8 +13,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-features-js": [
-      "component---src-pages-features-js-0e37b318a55fd8465992.js",
-      "component---src-pages-features-js-0e37b318a55fd8465992.js.map"
+      "component---src-pages-features-js-f6b01da54218b635ced4.js",
+      "component---src-pages-features-js-f6b01da54218b635ced4.js.map"
     ],
     "path---terms": [
       "path---terms-a0e39f21c11f6a62c5ab.js",
@@ -41,13 +41,13 @@
       "path---is-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-f23030033105e56ea219.js",
-      "component---src-pages-404-js-f23030033105e56ea219.js.map"
+      "component---src-pages-404-js-d43b84773724fe288871.js",
+      "component---src-pages-404-js-d43b84773724fe288871.js.map"
     ],
     "commons": [
-      "commons-fc2ee20d0743ca751042.js",
+      "commons-292b82d185df7b8178c6.js",
       "build-js-styles.css",
-      "commons-fc2ee20d0743ca751042.js.map",
+      "commons-292b82d185df7b8178c6.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -55,8 +55,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-pricing-js": [
-      "component---src-pages-pricing-js-ee4f0715abd700199784.js",
-      "component---src-pages-pricing-js-ee4f0715abd700199784.js.map"
+      "component---src-pages-pricing-js-dab2383d4ab74057e3a5.js",
+      "component---src-pages-pricing-js-dab2383d4ab74057e3a5.js.map"
     ],
     "app": [
       "app-6271fed85d2a82530215.js",
@@ -69,8 +69,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-terms-js": [
-      "component---src-pages-terms-js-b856a0bc587be6996a10.js",
-      "component---src-pages-terms-js-b856a0bc587be6996a10.js.map"
+      "component---src-pages-terms-js-d7d97c748cc1170ef56a.js",
+      "component---src-pages-terms-js-d7d97c748cc1170ef56a.js.map"
     ]
   }
 }
