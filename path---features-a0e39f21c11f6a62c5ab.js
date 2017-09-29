@@ -1,2 +1,0 @@
-webpackJsonp([56980643304056],{"./node_modules/json-loader/index.js!./.cache/json/features.json":function(e,o){e.exports={pathContext:{}}}});
-//# sourceMappingURL=path---features-a0e39f21c11f6a62c5ab.js.map
