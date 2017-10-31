@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-b521c7825876a1197bce.js",
-      "component---src-pages-index-js-b521c7825876a1197bce.js.map"
+      "component---src-pages-index-js-533748f6fd362c03c228.js",
+      "component---src-pages-index-js-533748f6fd362c03c228.js.map"
     ],
     "path---features": [
       "path---features-a0e39f21c11f6a62c5ab.js",
@@ -13,8 +13,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-features-js": [
-      "component---src-pages-features-js-c7018d1f78ae43b1cf4a.js",
-      "component---src-pages-features-js-c7018d1f78ae43b1cf4a.js.map"
+      "component---src-pages-features-js-df4eda9bcd3469852ad9.js",
+      "component---src-pages-features-js-df4eda9bcd3469852ad9.js.map"
     ],
     "path---terms": [
       "path---terms-a0e39f21c11f6a62c5ab.js",
@@ -55,13 +55,13 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-pricing-js": [
-      "component---src-pages-pricing-js-dab2383d4ab74057e3a5.js",
-      "component---src-pages-pricing-js-dab2383d4ab74057e3a5.js.map"
+      "component---src-pages-pricing-js-67fe89a797ff2d88f20b.js",
+      "component---src-pages-pricing-js-67fe89a797ff2d88f20b.js.map"
     ],
     "app": [
-      "app-f70566a3b7a2be51e484.js",
+      "app-a8e028ff2ab1eeb48b93.js",
       "build-js-styles.css",
-      "app-f70566a3b7a2be51e484.js.map",
+      "app-a8e028ff2ab1eeb48b93.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -69,8 +69,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-terms-js": [
-      "component---src-pages-terms-js-d7d97c748cc1170ef56a.js",
-      "component---src-pages-terms-js-d7d97c748cc1170ef56a.js.map"
+      "component---src-pages-terms-js-dd4536cc334d937598e8.js",
+      "component---src-pages-terms-js-dd4536cc334d937598e8.js.map"
     ]
   }
 }
