@@ -1,0 +1,157 @@
+<svg width="560px" height="592px" viewBox="0 0 560 592" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="301" height="458" rx="18"></rect>
+        <filter x="-16.1%" y="-9.1%" width="132.2%" height="121.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.701960784   0 0 0 0 0.701960784   0 0 0 0 0.749019608  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="17.3533898%" y1="0%" x2="128.439692%" y2="171.622051%" id="linearGradient-3">
+            <stop stop-color="#EBECEF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="301" height="458" rx="18"></rect>
+        <filter x="-16.1%" y="-9.1%" width="132.2%" height="121.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.701960784   0 0 0 0 0.701960784   0 0 0 0 0.749019608  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features" transform="translate(-804.000000, -892.000000)">
+            <g id="Group-9" transform="translate(834.000000, 915.000000)">
+                <g id="Group-8" transform="translate(0.000000, 74.000000)">
+                    <g id="Rectangle-8">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle-10-Copy" fill="#B6BFF3" x="20" y="343" width="40" height="40" rx="12"></rect>
+                    <g id="Group-3" transform="translate(22.000000, 403.000000)">
+                        <rect id="Rectangle-6" stroke="url(#linearGradient-3)" stroke-width="2" opacity="0.5" x="0" y="0" width="201" height="37" rx="8"></rect>
+                        <text id="send-a-message…" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#EBECEF">
+                            <tspan x="14" y="23">send a message…</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-10-Copy-2" stroke="#222232" x="20.5" y="293.5" width="39" height="39" rx="12"></rect>
+                    <g id="Group" transform="translate(26.000000, 301.000000)">
+                        <circle id="Oval-8-Copy" fill="#8CFFC5" cx="12" cy="14" r="12"></circle>
+                        <circle id="Oval-8-Copy" stroke="#222232" stroke-width="1.5" cx="14" cy="12" r="12"></circle>
+                        <g id="Group-6" transform="translate(7.000000, 6.000000)" stroke="#222232">
+                            <path d="M7.5,14 C11.6421356,14 15,10.418278 15,6 C15,6 11.25,7.94725373 7.5,7.94725373 C3.75,7.94725373 0,6 0,6 C0,10.418278 3.35786438,14 7.5,14 Z" id="Oval-8-Copy-2" stroke-linejoin="round"></path>
+                            <path d="M3.5,0 L3.5,2" id="Line-Copy-3" stroke-linecap="round"></path>
+                            <path d="M10.5,0 L10.5,2" id="Line-Copy-4" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                    <path d="M21,127.20064 L282,127.20064" id="Line-Copy-2" stroke="#EBECEF" stroke-linecap="round"></path>
+                    <path d="M23,166.5 L23,271" id="Line-2" stroke="#EBECEF" stroke-width="2" stroke-linecap="round"></path>
+                    <text id="Smallchat" font-family="Lato-Black, Lato" font-size="18" font-weight="700" letter-spacing="-0.103703707" fill="#2C2C46">
+                        <tspan x="95" y="52">Smallcha</tspan>
+                        <tspan x="168.27637" y="52" letter-spacing="-0.053772293">t</tspan>
+                    </text>
+                    <text id="in-#chat-smallcat" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" letter-spacing="-0.103703707" fill="#B3B3BF">
+                        <tspan x="95" y="72">in #chat-smallcat</tspan>
+                    </text>
+                    <text id="New-York-City,-New-Y" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" letter-spacing="-0.103703707" fill="#B3B3BF">
+                        <tspan x="21" y="116">New York City, New York, US</tspan>
+                    </text>
+                    <text id="John-Smith" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" fill="#222232">
+                        <tspan x="20" y="155">John Smith</tspan>
+                    </text>
+                    <text id="Browser" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#222232">
+                        <tspan x="32" y="178">Browser</tspan>
+                    </text>
+                    <text id="email" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#222232">
+                        <tspan x="153" y="178">email</tspan>
+                    </text>
+                    <text id="url" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#222232">
+                        <tspan x="32" y="216">url</tspan>
+                    </text>
+                    <text id="Auto-Message" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#222232">
+                        <tspan x="32" y="254">Auto Message</tspan>
+                    </text>
+                    <text id="requestIP" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#222232">
+                        <tspan x="153" y="216">requestIP</tspan>
+                    </text>
+                    <text id="Chrome-64.0.1132" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" letter-spacing="0.100000001" fill="#B3B3BF">
+                        <tspan x="32" y="193">Chrome 64.0.113</tspan>
+                        <tspan x="125.204" y="193">2</tspan>
+                    </text>
+                    <text id="john.smith@gmail.com" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" letter-spacing="0.100000001" fill="#B3B3BF">
+                        <tspan x="153" y="193">john.smith@gmail.com</tspan>
+                    </text>
+                    <text id="/pricing" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" letter-spacing="0.100000001" fill="#B3B3BF">
+                        <tspan x="32" y="231">/pricing</tspan>
+                    </text>
+                    <text id="Hi-👋-Let-me-know-if" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" letter-spacing="0.100000001" fill="#B3B3BF">
+                        <tspan x="32" y="268">Hi </tspan>
+                        <tspan x="46.76" y="268" font-family="AppleColorEmoji, Apple Color Emoji" font-size="10">👋</tspan>
+                        <tspan x="59.86" y="268"> Let me know if you have any questions!</tspan>
+                    </text>
+                    <text id="107.555.55.55" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" letter-spacing="0.100000001" fill="#B3B3BF">
+                        <tspan x="153" y="231">107.555.55.55</tspan>
+                    </text>
+                    <text id="Yes!-I-could-use-som" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                        <tspan x="71.316" y="307">Yes! I could use some help with</tspan>
+                        <tspan x="70" y="327">my order. </tspan>
+                        <tspan x="130.088713" y="325.5" font-family="AppleColorEmoji, Apple Color Emoji">🛍️</tspan>
+                    </text>
+                    <text id="Great!-I’ll-be-happy" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                        <tspan x="71" y="359">Great! I’ll be happy to help </tspan>
+                        <tspan x="71" y="379">walk you through that! </tspan>
+                    </text>
+                    <g id="Group-9-Copy-4" opacity="0.5" transform="translate(277.287388, 421.265225) rotate(71.000000) translate(-277.287388, -421.265225) translate(265.287388, 408.765225)" stroke="#EBECEF" stroke-width="2" stroke-linejoin="round">
+                        <path d="M11.5822854,3.38881609 C11.8231425,2.89381673 12.221109,2.8917656 12.4734947,3.38881609 L21.2687994,20.7103646 C21.5201436,21.205364 21.2758448,21.6066403 20.7187991,21.6066403 L14.3846736,21.6066403 L12.0648507,11.2614203 L10.0931201,21.6066403 L3.7125057,21.6066403 C3.16316867,21.6066403 2.91209827,21.2074151 3.15395347,20.7103646 L11.5822854,3.38881609 Z" id="Triangle" transform="translate(12.214727, 12.311719) rotate(19.000000) translate(-12.214727, -12.311719) "></path>
+                    </g>
+                    <rect id="Rectangle-10" fill="#8CFFC5" x="20" y="28" width="60" height="60" rx="18"></rect>
+                    <rect id="Rectangle-10" stroke="#222232" x="25.5" y="26.5" width="59" height="59" rx="18"></rect>
+                </g>
+                <g id="Group-39" transform="translate(199.000000, 0.000000)">
+                    <g id="Group-8-Copy-2">
+                        <g id="Rectangle-8">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <rect id="Rectangle-16" fill="#F7F7F9" x="56" y="90" width="212" height="60" rx="12"></rect>
+                        <rect id="Rectangle-16-Copy-2" fill="#F7F7F9" x="56" y="255" width="212" height="60" rx="12"></rect>
+                        <rect id="Rectangle-16-Copy" fill="#EBECEF" x="56" y="167" width="212" height="71" rx="12"></rect>
+                        <path d="M18,-3.55271368e-15 L283,-3.55271368e-15 L283,-3.55271368e-15 C292.941125,-5.37894382e-15 301,8.0588745 301,18 L301,68 L0,68 L0,18 L0,18 C-1.21743675e-15,8.0588745 8.0588745,1.82623014e-15 18,0 Z" id="Rectangle-8" fill="#B6BFF3"></path>
+                        <circle id="Oval-17" fill="#F7F7F9" cx="36" cy="36" r="19"></circle>
+                        <circle id="Oval-17-Copy" fill="#B6BFF3" cx="34" cy="106" r="14"></circle>
+                        <circle id="Oval-17-Copy-2" fill="#B6BFF3" cx="34" cy="271" r="14"></circle>
+                        <circle id="Oval-17-Copy" stroke="#222232" cx="36" cy="105" r="14"></circle>
+                        <circle id="Oval-17-Copy-3" stroke="#222232" cx="36" cy="270" r="14"></circle>
+                        <circle id="Oval-17" stroke="#222232" cx="39" cy="35" r="19"></circle>
+                        <path d="M73.5,35.5 L242.5,35.5" id="Line-17" stroke="#F7F7F9" stroke-width="13" stroke-linecap="round"></path>
+                        <path d="M84.5,41.5 L210.563476,41.5" id="Line-18" stroke="#222232" stroke-linecap="round"></path>
+                        <g id="Group-3" transform="translate(26.000000, 418.000000)" font-size="16" font-family="Lato-Regular, Lato" fill="#D6D6E0" font-weight="normal">
+                            <text id="send-a-message…">
+                                <tspan x="0" y="16">send a message…</tspan>
+                            </text>
+                        </g>
+                        <text id="Yes!-I-could-use-som" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="74.316" y="196">Yes! I could use some help with</tspan>
+                            <tspan x="73" y="216">my order. </tspan>
+                            <tspan x="133.088713" y="214.5" font-family="AppleColorEmoji, Apple Color Emoji">🛍️</tspan>
+                        </text>
+                        <text id="Hi-👋-Let-me-know-if" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="71" y="113.5">Hi </tspan>
+                            <tspan x="88.5686389" y="112" font-family="AppleColorEmoji, Apple Color Emoji">👋</tspan>
+                            <tspan x="106.455185" y="113.5"> Let me know if you</tspan>
+                            <tspan x="72.316" y="133.5">have any questions!</tspan>
+                        </text>
+                        <text id="Great!-I’ll-be-happy-Copy" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="71" y="278">Great! I’ll be happy to help </tspan>
+                            <tspan x="71" y="298">walk you through that! </tspan>
+                        </text>
+                        <g id="Group-9-Copy-4" opacity="0.5" transform="translate(270.000000, 427.500000) rotate(71.000000) translate(-270.000000, -427.500000) translate(258.000000, 415.000000)" stroke="#D6D6E0" stroke-width="2" stroke-linejoin="round">
+                            <path d="M11.5822854,3.38881609 C11.8231425,2.89381673 12.221109,2.8917656 12.4734947,3.38881609 L21.2687994,20.7103646 C21.5201436,21.205364 21.2758448,21.6066403 20.7187991,21.6066403 L14.3846736,21.6066403 L12.0648507,11.2614203 L10.0931201,21.6066403 L3.7125057,21.6066403 C3.16316867,21.6066403 2.91209827,21.2074151 3.15395347,20.7103646 L11.5822854,3.38881609 Z" id="Triangle" transform="translate(12.214727, 12.311719) rotate(19.000000) translate(-12.214727, -12.311719) "></path>
+                        </g>
+                    </g>
+                    <path d="M70.5,156 L123.650729,156" id="Line" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M70.5,321 L123.650729,321" id="Line-Copy-11" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M197.5,244 L250.650729,244" id="Line-Copy" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
