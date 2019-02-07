@@ -1,0 +1,247 @@
+<svg width="795px" height="703px" viewBox="0 0 795 703" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M12,1.65069781e-14 L146.023174,2.98676014e-15 L146.023174,3.55271368e-15 C152.650591,2.33526306e-15 158.023174,5.372583 158.023174,12 L158.023174,34 L0,34 L0,12 L3.55271368e-15,12 C2.74108918e-15,5.372583 5.372583,1.72046622e-14 12,1.59872116e-14 Z" id="path-1"></path>
+        <filter x="-10.4%" y="-39.7%" width="120.9%" height="197.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.838459179   0 0 0 0 0.838913817   0 0 0 0 0.87670068  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="38" width="301" height="458" rx="18"></rect>
+        <filter x="-16.1%" y="-9.1%" width="132.2%" height="121.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.701960784   0 0 0 0 0.701960784   0 0 0 0 0.749019608  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="19" width="301" height="458" rx="18"></rect>
+        <filter x="-16.1%" y="-9.1%" width="132.2%" height="121.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.701960784   0 0 0 0 0.701960784   0 0 0 0 0.749019608  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-5.8%" y="-19.9%" width="111.6%" height="152.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.133333333   0 0 0 0 0.133333333   0 0 0 0 0.196078431  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M16.9990723,11.0009277 L195.000928,11.0009277 L195.000928,11.0009277 C204.389256,11.0009277 212,18.6116716 212,28 L212,28 L212,28 C212,37.3883284 204.389256,44.9990723 195.000928,44.9990723 L16.9990723,44.9990723 L16.9990723,44.9990723 C7.61074393,44.9990723 1.14973863e-15,37.3883284 0,28 L0,28 L0,28 C-1.14973863e-15,18.6116716 7.61074393,11.0009277 16.9990723,11.0009277 Z" id="path-8"></path>
+        <filter x="-7.8%" y="-39.7%" width="115.6%" height="197.1%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.838459179   0 0 0 0 0.838913817   0 0 0 0 0.87670068  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M17,11 L185,11 L185,11 C194.388841,11 202,18.6111593 202,28 L202,28 L202,28 C202,37.3888407 194.388841,45 185,45 L17,45 L17,45 C7.61115925,45 1.14980138e-15,37.3888407 0,28 L0,28 L0,28 C-1.14980138e-15,18.6111593 7.61115925,11 17,11 Z" id="path-10"></path>
+        <filter x="-8.2%" y="-39.7%" width="116.3%" height="197.1%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.838459179   0 0 0 0 0.838913817   0 0 0 0 0.87670068  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-34.4%" y="-31.4%" width="168.8%" height="176.7%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.838459179   0 0 0 0 0.838913817   0 0 0 0 0.87670068  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-34.4%" y="-31.4%" width="168.8%" height="176.7%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.838459179   0 0 0 0 0.838913817   0 0 0 0 0.87670068  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-34.4%" y="-31.4%" width="168.8%" height="176.7%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.838459179   0 0 0 0 0.838913817   0 0 0 0 0.87670068  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-34.4%" y="-31.4%" width="168.8%" height="176.7%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.838459179   0 0 0 0 0.838913817   0 0 0 0 0.87670068  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features-Copy" transform="translate(-790.000000, -133.000000)">
+            <g id="Group-14" transform="translate(800.000000, 140.000000)">
+                <g id="Group-13-Copy" transform="translate(0.000000, 282.000000)">
+                    <g id="Rectangle-53">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FAC074" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M16.9022413,27 L19.8402054,25.1361491 C20.8333868,25.4267371 21.8957933,25.5840869 23,25.5840869 C28.5228475,25.5840869 33,21.647755 33,16.7920435 C33,11.9363319 28.5228475,8 23,8 C22.2562715,8 21.5315061,8.07138294 20.8340834,8.20678128 C18.8692287,8.58824019 17.1214,9.4778039 15.777983,10.7107223 C15.3225181,11.1287243 14.9135381,11.586193 14.5583455,12.0767081 C13.5716314,13.4393435 13,15.0570015 13,16.7920435 C13,19.4160094 14.3074122,21.7714994 16.3807414,23.3824284" id="Combined-Shape-Copy-2" stroke="#222232" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <text id="¿Quieres-hablar?" font-family="Lato-Bold, Lato" font-size="13" font-weight="bold" letter-spacing="0.200000003" fill="#222232">
+                        <tspan x="42" y="21">¿Quieres hablar?</tspan>
+                    </text>
+                </g>
+                <g id="Group-39" transform="translate(183.000000, 68.000000)">
+                    <g id="Group-8-Copy-2">
+                        <g id="Rectangle-8">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <rect id="Rectangle-16" fill="#F7F7F9" x="56" y="128" width="212" height="60" rx="12"></rect>
+                        <rect id="Rectangle-16-Copy-2" fill="#F7F7F9" x="56" y="293" width="212" height="60" rx="12"></rect>
+                        <rect id="Rectangle-16-Copy" fill="#EBECEF" x="56" y="205" width="212" height="71" rx="12"></rect>
+                        <path d="M18,0.00153117982 L283,0.00153117982 L283,0.00153117982 C292.941125,0.00153117982 301,8.06040568 301,18.0015312 L301,106 L0,106 L0,18.0015312 L0,18.0015312 C-1.21743675e-15,8.06040568 8.0588745,0.00153117982 18,0.00153117982 Z" id="Rectangle-8" fill="#B6BFF3"></path>
+                        <circle id="Oval-17" fill="#F7F7F9" cx="36" cy="33" r="19"></circle>
+                        <circle id="Oval-17-Copy" fill="#B6BFF3" cx="34" cy="144" r="14"></circle>
+                        <circle id="Oval-17-Copy-2" fill="#B6BFF3" cx="34" cy="309" r="14"></circle>
+                        <circle id="Oval-17-Copy" stroke="#222232" cx="36" cy="143" r="14"></circle>
+                        <circle id="Oval-17-Copy-3" stroke="#222232" cx="36" cy="308" r="14"></circle>
+                        <circle id="Oval-17" stroke="#222232" cx="39" cy="32" r="19"></circle>
+                        <path d="M73.5,32.5 L219.5,32.5" id="Line-17" stroke="#F7F7F9" stroke-width="13" stroke-linecap="round"></path>
+                        <path d="M73.5,58.5 L249.5,58.5" id="Line-17-Copy" stroke="#F7F7F9" stroke-width="13" stroke-linecap="round"></path>
+                        <path d="M73.5,84.5 L172.545444,84.5" id="Line-17-Copy-2" stroke="#F7F7F9" stroke-width="13" stroke-linecap="round"></path>
+                        <path d="M84.5,38.5 L200.5,38.5" id="Line-18" stroke="#222232" stroke-linecap="round"></path>
+                        <path d="M84.5,64.5 L219.5,64.5" id="Line-18-Copy" stroke="#222232" stroke-linecap="round"></path>
+                        <path d="M84.5,90.5 L151.5,90.5" id="Line-18-Copy-2" stroke="#222232" stroke-linecap="round"></path>
+                        <g id="Group-3" transform="translate(26.000000, 456.000000)" font-size="16" font-family="Lato-Regular, Lato" fill="#D6D6E0" font-weight="normal">
+                            <text id="send-a-message…">
+                                <tspan x="0" y="16">send a message…</tspan>
+                            </text>
+                        </g>
+                        <text id="Yes!-I-could-use-som" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="74.316" y="234">Yes! I could use some help with</tspan>
+                            <tspan x="73" y="254">my order. </tspan>
+                            <tspan x="133.088713" y="252.5" font-family="AppleColorEmoji, Apple Color Emoji">🛍️</tspan>
+                        </text>
+                        <text id="Hi-👋-Let-me-know-if" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="71" y="151.5">Hi </tspan>
+                            <tspan x="88.5686389" y="150" font-family="AppleColorEmoji, Apple Color Emoji">👋</tspan>
+                            <tspan x="106.455185" y="151.5"> Let me know if you</tspan>
+                            <tspan x="72.316" y="171.5">have any questions!</tspan>
+                        </text>
+                        <text id="Great!-I’ll-be-happy-Copy" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="71" y="316">Great! I’ll be happy to help </tspan>
+                            <tspan x="71" y="336">walk you through that! </tspan>
+                        </text>
+                        <g id="Group-9-Copy-4" opacity="0.5" transform="translate(270.000000, 465.500000) rotate(71.000000) translate(-270.000000, -465.500000) translate(258.000000, 453.000000)" stroke="#D6D6E0" stroke-width="2" stroke-linejoin="round">
+                            <path d="M11.5822854,3.38881609 C11.8231425,2.89381673 12.221109,2.8917656 12.4734947,3.38881609 L21.2687994,20.7103646 C21.5201436,21.205364 21.2758448,21.6066403 20.7187991,21.6066403 L14.3846736,21.6066403 L12.0648507,11.2614203 L10.0931201,21.6066403 L3.7125057,21.6066403 C3.16316867,21.6066403 2.91209827,21.2074151 3.15395347,20.7103646 L11.5822854,3.38881609 Z" id="Triangle" transform="translate(12.214727, 12.311719) rotate(19.000000) translate(-12.214727, -12.311719) "></path>
+                        </g>
+                    </g>
+                    <path d="M70.5,194 L123.650729,194" id="Line" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M70.5,359 L123.650729,359" id="Line-Copy-11" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M197.5,282 L250.650729,282" id="Line-Copy" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+                <g id="Group-39-Copy" transform="translate(313.000000, 182.000000)">
+                    <g id="Group-8-Copy-2">
+                        <g id="Rectangle-8">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <rect id="Rectangle-16" fill="#F7F7F9" x="56" y="109" width="212" height="60" rx="12"></rect>
+                        <rect id="Rectangle-16-Copy-2" fill="#F7F7F9" x="56" y="274" width="212" height="60" rx="12"></rect>
+                        <rect id="Rectangle-16-Copy" fill="#EBECEF" x="56" y="186" width="212" height="71" rx="12"></rect>
+                        <circle id="Oval-17-Copy" fill="#B6BFF3" cx="34" cy="125" r="14"></circle>
+                        <circle id="Oval-17-Copy-2" fill="#B6BFF3" cx="34" cy="290" r="14"></circle>
+                        <circle id="Oval-17-Copy" stroke="#222232" cx="36" cy="124" r="14"></circle>
+                        <circle id="Oval-17-Copy-3" stroke="#222232" cx="36" cy="289" r="14"></circle>
+                        <g id="Group-12" transform="translate(0.000000, 19.000000)">
+                            <path d="M18,-3.55271368e-15 L283,-3.55271368e-15 L283,-3.55271368e-15 C292.941125,-5.37894382e-15 301,8.0588745 301,18 L301,68 L0,68 L0,18 L0,18 C-1.21743675e-15,8.0588745 8.0588745,1.82623014e-15 18,0 Z" id="Rectangle-8" fill="#8CFFC5"></path>
+                            <circle id="Oval-17" fill="#5759FF" cx="36" cy="36" r="19"></circle>
+                            <circle id="Oval-17" stroke="#222232" cx="39" cy="35" r="19"></circle>
+                            <path d="M73.5,35.5 L242.5,35.5" id="Line-17" stroke="#F7F7F9" stroke-width="13" stroke-linecap="round"></path>
+                            <path d="M84.5,41.5 L210.563476,41.5" id="Line-18" stroke="#222232" stroke-linecap="round"></path>
+                        </g>
+                        <g id="Group-12" filter="url(#filter-7)" transform="translate(29.000000, 0.000000)">
+                            <path d="M18,-3.55271368e-15 L283,-3.55271368e-15 L283,-3.55271368e-15 C292.941125,-5.37894382e-15 301,8.0588745 301,18 L301,68 L0,68 L0,18 L0,18 C-1.21743675e-15,8.0588745 8.0588745,1.82623014e-15 18,0 Z" id="Rectangle-8" fill="#FC8C9C"></path>
+                            <circle id="Oval-17" fill="#9192C5" cx="36" cy="36" r="19"></circle>
+                            <circle id="Oval-17" stroke="#222232" cx="39" cy="35" r="19"></circle>
+                            <path d="M73.5,35.5 L242.5,35.5" id="Line-17" stroke="#F7F7F9" stroke-width="13" stroke-linecap="round"></path>
+                            <path d="M84.5,41.5 L210.563476,41.5" id="Line-18" stroke="#222232" stroke-linecap="round"></path>
+                        </g>
+                        <g id="Group-3" transform="translate(26.000000, 437.000000)" font-size="16" font-family="Lato-Regular, Lato" fill="#D6D6E0" font-weight="normal">
+                            <text id="send-a-message…">
+                                <tspan x="0" y="16">send a message…</tspan>
+                            </text>
+                        </g>
+                        <text id="Yes!-I-could-use-som" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="74.316" y="215">Yes! I could use some help with</tspan>
+                            <tspan x="73" y="235">my order. </tspan>
+                            <tspan x="133.088713" y="233.5" font-family="AppleColorEmoji, Apple Color Emoji">🛍️</tspan>
+                        </text>
+                        <text id="Hi-👋-Let-me-know-if" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="71" y="132.5">Hi </tspan>
+                            <tspan x="88.5686389" y="131" font-family="AppleColorEmoji, Apple Color Emoji">👋</tspan>
+                            <tspan x="106.455185" y="132.5"> Let me know if you</tspan>
+                            <tspan x="72.316" y="152.5">have any questions!</tspan>
+                        </text>
+                        <text id="Great!-I’ll-be-happy-Copy" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="20" letter-spacing="-0.103703707" fill="#222232">
+                            <tspan x="71" y="297">Great! I’ll be happy to help </tspan>
+                            <tspan x="71" y="317">walk you through that! </tspan>
+                        </text>
+                        <g id="Group-9-Copy-4" opacity="0.5" transform="translate(270.000000, 446.500000) rotate(71.000000) translate(-270.000000, -446.500000) translate(258.000000, 434.000000)" stroke="#D6D6E0" stroke-width="2" stroke-linejoin="round">
+                            <path d="M11.5822854,3.38881609 C11.8231425,2.89381673 12.221109,2.8917656 12.4734947,3.38881609 L21.2687994,20.7103646 C21.5201436,21.205364 21.2758448,21.6066403 20.7187991,21.6066403 L14.3846736,21.6066403 L12.0648507,11.2614203 L10.0931201,21.6066403 L3.7125057,21.6066403 C3.16316867,21.6066403 2.91209827,21.2074151 3.15395347,20.7103646 L11.5822854,3.38881609 Z" id="Triangle" transform="translate(12.214727, 12.311719) rotate(19.000000) translate(-12.214727, -12.311719) "></path>
+                        </g>
+                    </g>
+                    <path d="M70.5,175 L123.650729,175" id="Line" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M70.5,340 L123.650729,340" id="Line-Copy-11" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M197.5,263 L250.650729,263" id="Line-Copy" stroke="#D6D6E0" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+                <g id="Group-13-Copy-4" transform="translate(47.000000, 446.000000)">
+                    <g id="Rectangle-53">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                        <use fill="#E24A71" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    </g>
+                    <path d="M16.9022413,38 L19.8402054,36.1361491 C20.8333868,36.4267371 21.8957933,36.5840869 23,36.5840869 C28.5228475,36.5840869 33,32.647755 33,27.7920435 C33,22.9363319 28.5228475,19 23,19 C22.2562715,19 21.5315061,19.0713829 20.8340834,19.2067813 C18.8692287,19.5882402 17.1214,20.4778039 15.777983,21.7107223 C15.3225181,22.1287243 14.9135381,22.586193 14.5583455,23.0767081 C13.5716314,24.4393435 13,26.0570015 13,27.7920435 C13,30.4160094 14.3074122,32.7714994 16.3807414,34.3824284" id="Combined-Shape-Copy-2" stroke="#F7F7F9" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <text id="さいきん-どう-最近どう" font-family="Lato-Bold, Lato" font-size="13" font-weight="bold" letter-spacing="0.200000003" fill="#F7F7F9">
+                        <tspan x="42" y="13"></tspan>
+                        <tspan x="42" y="29" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">さいきん</tspan>
+                        <tspan x="94.8" y="29" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal" letter-spacing="-2">　</tspan>
+                        <tspan x="105.8" y="29" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">どう</tspan>
+                        <tspan x="132.2" y="29" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal" letter-spacing="-2"> </tspan>
+                        <tspan x="147.2" y="29" font-family="PingFangSC-Regular, PingFang SC" font-weight="normal">最近どう</tspan>
+                    </text>
+                </g>
+                <g id="Group-13" transform="translate(573.000000, 529.000000)">
+                    <g id="Rectangle-53">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                        <use fill="#5759FF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    </g>
+                    <path d="M16.9022413,38 L19.8402054,36.1361491 C20.8333868,36.4267371 21.8957933,36.5840869 23,36.5840869 C28.5228475,36.5840869 33,32.647755 33,27.7920435 C33,22.9363319 28.5228475,19 23,19 C22.2562715,19 21.5315061,19.0713829 20.8340834,19.2067813 C18.8692287,19.5882402 17.1214,20.4778039 15.777983,21.7107223 C15.3225181,22.1287243 14.9135381,22.586193 14.5583455,23.0767081 C13.5716314,24.4393435 13,26.0570015 13,27.7920435 C13,30.4160094 14.3074122,32.7714994 16.3807414,34.3824284" id="Combined-Shape-Copy-2" stroke="#F7F7F9" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <text id="👋-Привет,-как-дела?" font-family="Lato-Bold, Lato" font-size="13" font-weight="bold" letter-spacing="0.200000003" fill="#F7F7F9">
+                        <tspan x="40" y="13"></tspan>
+                        <tspan x="40" y="29" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal">👋</tspan>
+                        <tspan x="57.2" y="29" font-family="LucidaGrande-Bold, Lucida Grande"> Привет</tspan>
+                        <tspan x="112.256738" y="29">, </tspan>
+                        <tspan x="118.090738" y="29" font-family="LucidaGrande-Bold, Lucida Grande">как</tspan>
+                        <tspan x="141.961246" y="29"> </tspan>
+                        <tspan x="144.670246" y="29" font-family="LucidaGrande-Bold, Lucida Grande">дела?</tspan>
+                    </text>
+                </g>
+                <g id="Group-13-Copy-2" filter="url(#filter-12)" transform="translate(182.000000, 640.000000)">
+                    <ellipse id="Oval-18" fill="#F7F7F9" cx="24" cy="21.5" rx="24" ry="21.5"></ellipse>
+                    <path d="M17.9022413,31 L20.8402054,29.1361491 C21.8333868,29.4267371 22.8957933,29.5840869 24,29.5840869 C29.5228475,29.5840869 34,25.647755 34,20.7920435 C34,15.9363319 29.5228475,12 24,12 C23.2562715,12 22.5315061,12.0713829 21.8340834,12.2067813 C19.8692287,12.5882402 18.1214,13.4778039 16.777983,14.7107223 C16.3225181,15.1287243 15.9135381,15.586193 15.5583455,16.0767081 C14.5716314,17.4393435 14,19.0570015 14,20.7920435 C14,23.4160094 15.3074122,25.7714994 17.3807414,27.3824284" id="Combined-Shape-Copy-2" stroke="#222232" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-13-Copy-5" filter="url(#filter-13)" transform="translate(80.000000, 182.000000)">
+                    <ellipse id="Oval-18" fill="#66B3FC" cx="24" cy="21.5" rx="24" ry="21.5"></ellipse>
+                    <path d="M17.9022413,31 L20.8402054,29.1361491 C21.8333868,29.4267371 22.8957933,29.5840869 24,29.5840869 C29.5228475,29.5840869 34,25.647755 34,20.7920435 C34,15.9363319 29.5228475,12 24,12 C23.2562715,12 22.5315061,12.0713829 21.8340834,12.2067813 C19.8692287,12.5882402 18.1214,13.4778039 16.777983,14.7107223 C16.3225181,15.1287243 15.9135381,15.586193 15.5583455,16.0767081 C14.5716314,17.4393435 14,19.0570015 14,20.7920435 C14,23.4160094 15.3074122,25.7714994 17.3807414,27.3824284" id="Combined-Shape-Copy-2" stroke="#F7F7F9" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-13-Copy-6" filter="url(#filter-14)" transform="translate(269.000000, 0.000000)">
+                    <ellipse id="Oval-18" fill="#FFE3FF" cx="24" cy="21.5" rx="24" ry="21.5"></ellipse>
+                    <path d="M17.9022413,31 L20.8402054,29.1361491 C21.8333868,29.4267371 22.8957933,29.5840869 24,29.5840869 C29.5228475,29.5840869 34,25.647755 34,20.7920435 C34,15.9363319 29.5228475,12 24,12 C23.2562715,12 22.5315061,12.0713829 21.8340834,12.2067813 C19.8692287,12.5882402 18.1214,13.4778039 16.777983,14.7107223 C16.3225181,15.1287243 15.9135381,15.586193 15.5583455,16.0767081 C14.5716314,17.4393435 14,19.0570015 14,20.7920435 C14,23.4160094 15.3074122,25.7714994 17.3807414,27.3824284" id="Combined-Shape-Copy-2" stroke="#222232" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-13-Copy-3" filter="url(#filter-15)" transform="translate(647.000000, 124.000000)">
+                    <ellipse id="Oval-18" fill="#9192C5" cx="24" cy="21.5" rx="24" ry="21.5"></ellipse>
+                    <path d="M17.9022413,31 L20.8402054,29.1361491 C21.8333868,29.4267371 22.8957933,29.5840869 24,29.5840869 C29.5228475,29.5840869 34,25.647755 34,20.7920435 C34,15.9363319 29.5228475,12 24,12 C23.2562715,12 22.5315061,12.0713829 21.8340834,12.2067813 C19.8692287,12.5882402 18.1214,13.4778039 16.777983,14.7107223 C16.3225181,15.1287243 15.9135381,15.586193 15.5583455,16.0767081 C14.5716314,17.4393435 14,19.0570015 14,20.7920435 C14,23.4160094 15.3074122,25.7714994 17.3807414,27.3824284" id="Combined-Shape-Copy-2" stroke="#F7F7F9" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
